@@ -14,21 +14,23 @@ export default function RegisterPage() {
           <Logo />
           <h1 className="mt-12 text-4xl font-bold text-[var(--navy)]">İkinci görüş başvurunuzu başlatın.</h1>
           <p className="mt-3 leading-7 text-[var(--text-secondary)]">İlk adımda yalnızca gerekli hesap bilgileri alınır; klinik bilgiler başvuru akışı içinde adım adım sorulur.</p>
-          <form className="mt-8 grid gap-4 sm:grid-cols-2">
-            {["Ad", "Soyad", "E-posta", "Telefon", "Dogum tarihi", "Tercih edilen dil"].map((field) => (
+          <form className="mt-8 grid gap-4 sm:grid-cols-2" action="/app/cases/new">
+            {["Ad", "Soyad", "E-posta", "Telefon", "Doğum tarihi", "Tercih edilen dil"].map((field) => (
               <label key={field} className="block">
-                <span className="text-sm font-bold text-[var(--navy)]">{field}</span>
-                <input className="mt-2 h-12 w-full rounded-[9px] border border-[var(--border)] px-4 outline-none" placeholder={field} />
+                <span className="text-sm font-bold text-[var(--navy)]">
+                  {field} <span className="text-[var(--warning)]">{field === "Tercih edilen dil" ? "" : "*"}</span>
+                </span>
+                <input className="mt-2 h-12 w-full rounded-[9px] border border-[var(--border)] px-4 outline-none focus:border-[var(--blue)]" placeholder={field} required={field !== "Tercih edilen dil"} aria-required={field !== "Tercih edilen dil"} />
               </label>
             ))}
-            <Link href="/app/cases/new" className="btn-primary arrow-nudge mt-2 sm:col-span-2">
+            <button type="submit" className="btn-primary arrow-nudge mt-2 sm:col-span-2">
               Başvuruyu Başlat <ArrowRight size={17} />
-            </Link>
+            </button>
           </form>
           <p className="mt-6 text-sm text-[var(--text-secondary)]">
-            Zaten hesabiniz var mi?{" "}
+            Zaten hesabınız var mı?{" "}
             <Link href="/login" className="font-bold text-[var(--blue)]">
-              Giriş yapin
+              Giriş yapın
             </Link>
           </p>
         </div>

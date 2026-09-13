@@ -44,7 +44,7 @@ export default function PatientDashboardPage() {
             <CaseJourneyTimeline compact />
           </div>
           <Link href="/app/cases/SO-2026-00184" className="btn-secondary arrow-nudge mt-6">
-            Vakayı Gor <ArrowRight size={17} />
+            Vakayı Gör <ArrowRight size={17} />
           </Link>
         </article>
         <aside className="space-y-4">

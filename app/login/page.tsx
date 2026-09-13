@@ -12,23 +12,23 @@ export default function LoginPage() {
       <section className="flex items-center justify-center bg-white p-8">
         <div className="w-full max-w-md">
           <Logo />
-          <h1 className="mt-12 text-4xl font-bold text-[var(--navy)]">Hesabiniza giriş yapin.</h1>
+          <h1 className="mt-12 text-4xl font-bold text-[var(--navy)]">Hesabınıza giriş yapın.</h1>
           <p className="mt-3 leading-7 text-[var(--text-secondary)]">Vaka durumunuzu, belgelerinizi ve uzman raporunuzu güvenli şekilde takip edin.</p>
-          <form className="mt-8 space-y-4">
+          <form className="mt-8 space-y-4" action="/app">
             <label className="block">
               <span className="text-sm font-bold text-[var(--navy)]">E-posta</span>
-              <input className="mt-2 h-12 w-full rounded-[9px] border border-[var(--border)] px-4 outline-none" type="email" placeholder="örnek@email.com" />
+              <input className="mt-2 h-12 w-full rounded-[9px] border border-[var(--border)] px-4 outline-none focus:border-[var(--blue)]" type="email" placeholder="örnek@email.com" required aria-required />
             </label>
             <label className="block">
               <span className="text-sm font-bold text-[var(--navy)]">Şifre</span>
-              <input className="mt-2 h-12 w-full rounded-[9px] border border-[var(--border)] px-4 outline-none" type="password" placeholder="********" />
+              <input className="mt-2 h-12 w-full rounded-[9px] border border-[var(--border)] px-4 outline-none focus:border-[var(--blue)]" type="password" placeholder="********" required aria-required />
             </label>
-            <Link href="/app" className="btn-primary arrow-nudge w-full">
+            <button type="submit" className="btn-primary arrow-nudge w-full">
               Giriş Yap <ArrowRight size={17} />
-            </Link>
+            </button>
           </form>
           <p className="mt-6 text-sm text-[var(--text-secondary)]">
-            Hesabiniz yok mu?{" "}
+            Hesabınız yok mu?{" "}
             <Link href="/register" className="font-bold text-[var(--blue)]">
               Kayıt olun
             </Link>
@@ -40,7 +40,7 @@ export default function LoginPage() {
         <div className="relative flex h-full flex-col justify-end">
           <LockKeyhole className="text-[var(--blue)]" size={44} />
           <h2 className="mt-6 max-w-lg text-4xl font-bold leading-tight text-[var(--navy)]">
-            Raporlar e-posta eki olarak değil, güvenli hesap uzerinden teslim edilir.
+            Raporlar e-posta eki olarak değil, güvenli hesap üzerinden teslim edilir.
           </h2>
         </div>
       </section>

@@ -44,6 +44,20 @@ export function TrustItem({ icon: Icon, title, text }: { icon: LucideIcon; title
   );
 }
 
+export function LinkedTrustItem({ icon: Icon, title, text, href }: { icon: LucideIcon; title: string; text: string; href: string }) {
+  return (
+    <Link href={href} className="group flex items-start gap-3 rounded-[12px] p-2 transition-colors hover:bg-[var(--pale-blue)]">
+      <span className="grid h-11 w-11 shrink-0 place-items-center rounded-[10px] bg-[var(--pale-blue)] text-[var(--blue)] transition-transform group-hover:scale-105">
+        <Icon size={24} strokeWidth={1.8} />
+      </span>
+      <span>
+        <strong className="block text-sm text-[var(--navy)]">{title}</strong>
+        <span className="text-sm text-[var(--text-secondary)]">{text}</span>
+      </span>
+    </Link>
+  );
+}
+
 export function DoctorCard({ doctor }: { doctor: Doctor }) {
   return (
     <article className="group surface-card rounded-[12px] p-4 transition-all duration-200 hover:-translate-y-0.5 hover:border-[rgba(20,111,193,0.45)] hover:shadow-[var(--shadow-soft)]">
@@ -64,7 +78,7 @@ export function DoctorCard({ doctor }: { doctor: Doctor }) {
         Tahmini rapor süreci: {doctor.reviewTime}
       </div>
       <Link href={`/doctors/${doctor.slug}`} className="btn-secondary arrow-nudge mt-5 h-10 min-h-10 px-5">
-        Profili Gor <ArrowRight size={16} />
+        Profili Gör <ArrowRight size={16} />
       </Link>
     </article>
   );
@@ -75,19 +89,21 @@ export function SpecialtyCard({
   description,
   icon: Icon,
   image,
+  href = "/specialties",
 }: {
   title: string;
   description?: string;
   icon: LucideIcon;
   image?: string;
+  href?: string;
 }) {
   return (
-    <article className="group surface-card rounded-[12px] p-6 text-center transition-all duration-200 hover:-translate-y-0.5 hover:border-[rgba(20,111,193,0.42)]">
+    <Link href={href} className="group surface-card block rounded-[12px] p-6 text-center transition-all duration-200 hover:-translate-y-0.5 hover:border-[rgba(20,111,193,0.42)]">
       <div className="mx-auto grid h-16 w-16 place-items-center rounded-[12px] bg-[var(--pale-blue)] text-[var(--blue)] transition-transform duration-200 group-hover:scale-105">
         {image ? <Image src={image} alt="" width={44} height={44} className="h-11 w-11 object-contain" /> : <Icon size={34} strokeWidth={1.7} />}
       </div>
       <h3 className="mt-5 text-lg font-bold text-[var(--navy)]">{title}</h3>
       {description && <p className="mt-2 text-sm leading-6 text-[var(--text-secondary)]">{description}</p>}
-    </article>
+    </Link>
   );
 }

@@ -26,7 +26,7 @@ export default async function CaseDetailPage({ params }: { params: Promise<{ id:
             <p className="mt-2 text-[var(--text-secondary)]">{demoCase.studyDate} - {demoCase.patientSummary}</p>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row">
-            <Link href="/app/cases/SO-2026-00184/images" className="btn-secondary">Görüntüleri Gor</Link>
+            <Link href="/app/cases/SO-2026-00184/images" className="btn-secondary">Görüntüleri Gör</Link>
             <Link href="/app/cases/SO-2026-00184/result" className="btn-primary arrow-nudge">
               Rapor Önizleme <ArrowRight size={17} />
             </Link>
@@ -42,7 +42,7 @@ export default async function CaseDetailPage({ params }: { params: Promise<{ id:
           <h2 className="text-xl font-bold text-[var(--navy)]">Klinik bilgi</h2>
           <div className="mt-5 grid gap-4 sm:grid-cols-2">
             {[
-              ["Ana şikayet", "Bas agrisi ve takip görüntülemesi"],
+              ["Ana şikayet", "Baş ağrısı ve takip görüntülemesi"],
               ["Bilinen tanı", "Demo bilgi"],
               ["Mevcut tedavi", "Demo bilgi"],
               ["Hasta sorusu", demoCase.patientQuestion],

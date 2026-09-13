@@ -15,7 +15,7 @@ export default function DoctorsPage() {
           <SectionHeader
             eyebrow="Uzman kadro"
             title="Klinik otoriteyi sade bir seçim deneyimine dönüştürün."
-            text="Bu prototipteki profiller demonstrasyon amaclidir. Gercek kurum, yayin, hasta sayisi veya sertifika iddiasi kullanilmamistir."
+            text="Bu prototipteki profiller demonstrasyon amaçlıdır. Gerçek kurum, yayın, hasta sayısı veya sertifika iddiası kullanılmamıştır."
           />
           <div className="grid gap-5 md:grid-cols-2">
             {doctors.map((doctor) => (
