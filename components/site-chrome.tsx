@@ -114,7 +114,7 @@ export function Footer() {
               <span className="grid h-8 w-8 place-items-center rounded-md border border-[var(--border)] text-[var(--navy)]">yt</span>
             </div>
             <p>© 2026 Second Opinion.</p>
-            <p>Tüm haklari saklidir.</p>
+            <p>Tüm hakları saklıdır.</p>
           </div>
         </div>
       </div>
