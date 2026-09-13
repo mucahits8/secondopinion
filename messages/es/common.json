@@ -11,6 +11,8 @@
   },
   "languages": {
     "label": "Idioma",
+    "current": "Idioma actual: {language}",
+    "switchTo": "Cambiar a {language}",
     "tr": "Türkçe",
     "en": "English",
     "es": "Español"

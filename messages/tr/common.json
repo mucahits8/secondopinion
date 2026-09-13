@@ -11,6 +11,8 @@
   },
   "languages": {
     "label": "Dil",
+    "current": "Geçerli dil: {language}",
+    "switchTo": "{language} diline geç",
     "tr": "Türkçe",
     "en": "English",
     "es": "Español"
