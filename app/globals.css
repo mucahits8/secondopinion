@@ -1,0 +1,225 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f9fc;
+  --foreground: #17212b;
+  --surface: #ffffff;
+  --navy: #11385b;
+  --blue: #146fc1;
+  --blue-strong: #0e5da6;
+  --accent-blue: #4c9ad4;
+  --pale-blue: #eaf4fc;
+  --text-secondary: #667788;
+  --text-muted: #8a99a8;
+  --border: #dde5ec;
+  --border-strong: #cbd7e2;
+  --success: #23856d;
+  --success-bg: #eaf7f3;
+  --warning: #b77924;
+  --warning-bg: #fff7e8;
+  --error: #be4a4a;
+  --error-bg: #fff0f0;
+  --shadow-float: 0 14px 40px rgba(22, 55, 85, 0.09), 0 2px 8px rgba(22, 55, 85, 0.04);
+  --shadow-soft: 0 10px 30px rgba(17, 56, 91, 0.06);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Inter, Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(20, 111, 193, 0.16);
+}
+
+.container-shell {
+  width: min(1180px, calc(100% - 40px));
+  margin-inline: auto;
+}
+
+.section-space {
+  padding-block: 96px;
+}
+
+.surface-card {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 1px 0 rgba(17, 56, 91, 0.02);
+}
+
+.medical-glow {
+  background:
+    radial-gradient(circle at 66% 30%, rgba(76, 154, 212, 0.17), transparent 34%),
+    radial-gradient(circle at 78% 58%, rgba(20, 111, 193, 0.08), transparent 28%);
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(221, 229, 236, 0.52) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(221, 229, 236, 0.52) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: linear-gradient(to bottom, transparent, black 18%, black 70%, transparent);
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-ghost {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 9px;
+  padding: 0 22px;
+  font-size: 14px;
+  font-weight: 650;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease, color 180ms ease, box-shadow 180ms ease;
+}
+
+.btn-primary {
+  border: 1px solid var(--blue);
+  background: var(--blue);
+  color: white;
+  box-shadow: 0 10px 20px rgba(20, 111, 193, 0.14);
+}
+
+.btn-primary:hover {
+  background: var(--blue-strong);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  border: 1px solid var(--border-strong);
+  background: white;
+  color: var(--navy);
+}
+
+.btn-secondary:hover,
+.btn-ghost:hover {
+  border-color: rgba(20, 111, 193, 0.38);
+  color: var(--blue);
+}
+
+.btn-ghost {
+  min-height: 40px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--blue);
+  padding-inline: 6px;
+}
+
+.arrow-nudge svg,
+.arrow-nudge .arrow {
+  transition: transform 180ms ease;
+}
+
+.arrow-nudge:hover svg,
+.arrow-nudge:hover .arrow {
+  transform: translateX(3px);
+}
+
+.focus-ring:focus-visible,
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid rgba(20, 111, 193, 0.28);
+  outline-offset: 3px;
+}
+
+.reveal {
+  animation: reveal 620ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.reveal-slow {
+  animation: reveal 860ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.draw-line {
+  animation: drawLine 1100ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.pulse-soft {
+  animation: pulseSoft 2.8s ease-in-out infinite;
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.992);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes drawLine {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes pulseSoft {
+  0%,
+  100% {
+    opacity: 0.72;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 1ms !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-shell {
+    width: min(100% - 28px, 680px);
+  }
+
+  .section-space {
+    padding-block: 64px;
+  }
+}
