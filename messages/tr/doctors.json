@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "title": "Uzmanlarımız",
+    "description": "Second Opinion demonstrasyon uzman profilleri ve tıbbi görüntüleme odakları."
+  },
+  "page": {
+    "eyebrow": "Uzman kadro",
+    "title": "Klinik otoriteyi sade bir seçim deneyimine dönüştürün.",
+    "text": "Bu prototipteki profiller demonstrasyon amaçlıdır. Gerçek kurum, yayın, hasta sayısı veya sertifika iddiası kullanılmamıştır."
+  },
+  "profile": {
+    "fallbackTitle": "Uzman",
+    "cta": "Bu Uzmandan Görüş Al",
+    "cards": {
+      "expertise": "Uzmanlık",
+      "education": "Eğitim",
+      "modalities": "Değerlendirdiği görüntülemeler"
+    }
+  },
+  "items": {
+    "mehmet-kaya": {
+      "name": "Mehmet Kaya",
+      "title": "Prof. Dr.",
+      "specialty": "Nöroradyoloji",
+      "subspecialty": "Beyin ve omurga görüntüleme",
+      "intro": "Beyin, omurga ve baş-boyun görüntülemelerinde akademik deneyime sahip demonstrasyon uzmanı.",
+      "experience": "Klinik ve akademik değerlendirme deneyimi",
+      "education": ["Radyoloji uzmanlık eğitimi", "Nöroradyoloji odaklı akademik çalışmalar"],
+      "interests": ["Beyin MR", "Omurga MR", "Tümör takibi", "Vasküler görüntüleme"],
+      "languages": ["Türkçe", "İngilizce"],
+      "modalities": ["MR", "BT", "Anjiyografi"],
+      "reviewTime": "Operasyon onayı sonrası netleşir"
+    },
+    "ayse-demir": {
+      "name": "Ayşe Demir",
+      "title": "Prof. Dr.",
+      "specialty": "Kas-iskelet Radyolojisi",
+      "subspecialty": "Eklem, spor yaralanmaları ve omurga",
+      "intro": "Kas-iskelet sistemi görüntülemelerinde uzmanlaşmış demonstrasyon hekimi.",
+      "experience": "Kas-iskelet görüntüleme deneyimi",
+      "education": ["Radyoloji uzmanlık eğitimi", "Kas-iskelet görüntüleme programları"],
+      "interests": ["Diz MR", "Omuz MR", "Spor yaralanmaları", "Yumuşak doku"],
+      "languages": ["Türkçe", "İngilizce"],
+      "modalities": ["MR", "BT", "Röntgen"],
+      "reviewTime": "Operasyon onayı sonrası netleşir"
+    },
+    "selin-aras": {
+      "name": "Selin Aras",
+      "title": "Doç. Dr.",
+      "specialty": "Meme Görüntüleme",
+      "subspecialty": "Mamografi, meme MR ve ultrason",
+      "intro": "Meme görüntüleme ve girişimsel radyoloji alanında demonstrasyon profili.",
+      "experience": "Meme görüntüleme deneyimi",
+      "education": ["Radyoloji uzmanlık eğitimi", "Meme görüntüleme odaklı eğitim"],
+      "interests": ["Mamografi", "Meme MR", "Tarama bulguları", "Takip incelemeleri"],
+      "languages": ["Türkçe", "İngilizce"],
+      "modalities": ["Mamografi", "MR", "Ultrason"],
+      "reviewTime": "Operasyon onayı sonrası netleşir"
+    },
+    "emre-sahin": {
+      "name": "Emre Şahin",
+      "title": "Doç. Dr.",
+      "specialty": "Toraks Radyolojisi",
+      "subspecialty": "Göğüs BT ve onkolojik takip",
+      "intro": "Göğüs görüntüleme ve takip incelemelerinde demonstrasyon uzman profili.",
+      "experience": "Toraks görüntüleme deneyimi",
+      "education": ["Radyoloji uzmanlık eğitimi", "Toraks görüntüleme klinik programları"],
+      "interests": ["Göğüs BT", "Nodül takibi", "Onkolojik görüntüleme", "PET/CT korelasyonu"],
+      "languages": ["Türkçe", "İngilizce"],
+      "modalities": ["BT", "PET/CT", "Röntgen"],
+      "reviewTime": "Operasyon onayı sonrası netleşir"
+    }
+  }
+}

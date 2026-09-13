@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "title": "Especialidades",
+    "description": "Áreas de segunda opinión para imagen cerebral, de columna, musculoesquelética, mamaria, torácica, abdominal y oncológica."
+  },
+  "page": {
+    "eyebrow": "Áreas de imagen médica",
+    "title": "Inicie la segunda opinión en la especialidad adecuada.",
+    "text": "La elección del paciente se mantiene simple; tras subir las imágenes, la modalidad técnica se valida por separado en el sistema."
+  },
+  "items": {
+    "brain-spine": { "title": "Cerebro y Columna", "description": "RM cerebral, RM de columna, cabeza-cuello e imagen del sistema nervioso." },
+    "musculoskeletal": { "title": "Musculoesquelética", "description": "Articulaciones, hueso, tejido blando, lesiones deportivas y columna." },
+    "breast": { "title": "Mama", "description": "Mamografía, RM mamaria e imágenes de seguimiento." },
+    "chest": { "title": "Tórax", "description": "TC de tórax, seguimiento de nódulos pulmonares y estudios torácicos." },
+    "abdomen": { "title": "Abdomen", "description": "Imagen de hígado, páncreas, riñón y abdomen." },
+    "oncology": { "title": "Imagen Oncológica", "description": "PET/TC, estudios de seguimiento y valoración de respuesta al tratamiento." },
+    "vascular": { "title": "Vascular", "description": "Angiografía por TC, angiografía por RM e imagen vascular." },
+    "secure-process": { "title": "Proceso Seguro", "description": "Acceso autorizado e intercambio controlado por caso." }
+  }
+}

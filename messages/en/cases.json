@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "cases": "My Cases",
+    "new": "New Application",
+    "detail": "Case Details",
+    "images": "Images",
+    "result": "Result"
+  },
+  "demoCase": {
+    "patientSummary": "47 years old",
+    "study": "Brain MRI",
+    "studyDate": "September 3, 2026",
+    "specialist": "Prof. Dr. Mehmet Kaya",
+    "specialty": "Neuroradiology",
+    "expectedResult": "Confirmed after operational approval",
+    "documents": ["Radiology Report.pdf", "Previous MRI Report.pdf"],
+    "patientQuestion": "I want to understand whether the finding described in the first report has changed compared with the previous imaging.",
+    "clinicalCards": [
+      { "title": "Main complaint", "text": "Headache and follow-up imaging" },
+      { "title": "Known diagnosis", "text": "Demo information" },
+      { "title": "Current treatment", "text": "Demo information" },
+      { "title": "Patient question", "text": "I want to understand whether the finding described in the first report has changed compared with the previous imaging." }
+    ]
+  },
+  "list": {
+    "eyebrow": "My Cases",
+    "title": "Your second opinion requests"
+  },
+  "detail": {
+    "imagesCta": "View Images",
+    "reportCta": "Report Preview",
+    "clinicalInfo": "Clinical information",
+    "summary": "Case summary",
+    "expectedResult": "Estimated result: {value}",
+    "extraInfo": "If more information is needed, it will be requested here."
+  },
+  "images": {
+    "title": "Medical images",
+    "viewerAlt": "Anonymous brain MRI demo viewer",
+    "metrics": {
+      "study": "Study",
+      "series": "Series",
+      "images": "Images",
+      "size": "Size"
+    }
+  },
+  "wizard": {
+    "progress": ["Service", "Clinical Info", "Images", "Documents", "Expert", "Confirm"],
+    "newCase": "New case",
+    "forWhom": {
+      "label": "Who is this for?",
+      "self": "Myself",
+      "child": "My child",
+      "relative": "A relative"
+    },
+    "modality": {
+      "label": "Imaging type",
+      "options": [
+        { "id": "mri", "title": "MR / MRI", "text": "Magnetic resonance imaging" },
+        { "id": "ct", "title": "BT / CT", "text": "Computed tomography" },
+        { "id": "petct", "title": "PET/CT", "text": "Oncology follow-up and metabolic imaging" },
+        { "id": "mammography", "title": "Mammography", "text": "Breast imaging" },
+        { "id": "xray", "title": "X-ray", "text": "Plain radiography" },
+        { "id": "other", "title": "Other", "text": "Use this option if you are not sure" }
+      ]
+    },
+    "regions": {
+      "label": "Region to review",
+      "options": [
+        { "id": "brain", "label": "Brain" },
+        { "id": "spine", "label": "Spine" },
+        { "id": "chest", "label": "Chest" },
+        { "id": "abdomen", "label": "Abdomen" },
+        { "id": "breast", "label": "Breast" },
+        { "id": "msk", "label": "Musculoskeletal" }
+      ]
+    },
+    "panels": {
+      "service": {
+        "title": "Which imaging study do you want reviewed?",
+        "text": "Choose an imaging type and who the request is for. The system verifies technical details after the DICOM upload."
+      },
+      "clinical": {
+        "title": "What specific question should the expert answer?",
+        "text": "The main question is required. Other clinical details can be added as needed without making the patient feel trapped in a long form.",
+        "questionLabel": "Main clinical question",
+        "questionPlaceholder": "For example: I want to know whether the finding described in the first report has changed compared with prior imaging.",
+        "complaintLabel": "Main complaint",
+        "complaintPlaceholder": "Optional",
+        "notesLabel": "Additional clinical notes",
+        "notesPlaceholder": "Previous surgery, treatment, known diagnosis...",
+        "removeNote": "Remove note",
+        "addNote": "Add note"
+      },
+      "images": {
+        "title": "Upload your medical images.",
+        "text": "This step is required. In the prototype, files are not sent to a server; selected files are shown in the interface.",
+        "label": "DICOM / ZIP files",
+        "hint": "Folders, ZIP or DICOM files",
+        "selected": "{count, plural, one {# file selected} other {# files selected}}"
+      },
+      "documents": {
+        "title": "Add supporting documents.",
+        "text": "This step is optional. Radiology reports, discharge summaries, pathology reports or lab results can be added when useful.",
+        "removeRow": "Remove document row",
+        "add": "Add document",
+        "categories": [
+          { "id": "radiology-report", "label": "Radiology report" },
+          { "id": "discharge", "label": "Discharge summary" },
+          { "id": "pathology", "label": "Pathology" },
+          { "id": "lab", "label": "Laboratory" },
+          { "id": "operation", "label": "Operation report" },
+          { "id": "other", "label": "Other" }
+        ]
+      },
+      "expert": {
+        "title": "How would you like to choose the expert?",
+        "text": "There is no automatic matching in the MVP; selection can be managed manually by platform operations.",
+        "label": "Expert selection",
+        "self": { "label": "I want to choose the expert myself", "text": "Continue by reviewing physician profiles." },
+        "platform": { "label": "Let Second Opinion choose the right expert", "text": "The operations team routes the case based on the imaging area." }
+      },
+      "summary": {
+        "title": "Application summary",
+        "text": "Review required fields and optional information before sending. Payment and real submission integrations are not included in this prototype.",
+        "emptyQuestion": "Not written yet",
+        "requiredImage": "Required",
+        "rows": {
+          "forWhom": "For whom",
+          "modality": "Imaging",
+          "region": "Region",
+          "question": "Clinical question",
+          "images": "Image files",
+          "documents": "Supporting documents",
+          "expert": "Expert selection"
+        }
+      }
+    },
+    "notes": [
+      { "title": "Who is it for?", "text": "Forms the basis for required representation or consent flow" },
+      { "title": "Clinical question", "text": "The main topic the expert should answer" },
+      { "title": "Expert choice", "text": "Choose yourself or leave it to us" },
+      { "title": "DICOM", "text": "At least one imaging file is required for a request" }
+    ]
+  }
+}

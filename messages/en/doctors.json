@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "title": "Our Experts",
+    "description": "Second Opinion demonstration expert profiles and medical imaging focus areas."
+  },
+  "page": {
+    "eyebrow": "Expert team",
+    "title": "Turn clinical authority into a calm, simple selection experience.",
+    "text": "Profiles in this prototype are for demonstration only. No real institution, publication count, patient volume or certification claim is used."
+  },
+  "profile": {
+    "fallbackTitle": "Expert",
+    "cta": "Get an Opinion from This Expert",
+    "cards": {
+      "expertise": "Expertise",
+      "education": "Education",
+      "modalities": "Imaging reviewed"
+    }
+  },
+  "items": {
+    "mehmet-kaya": {
+      "name": "Mehmet Kaya",
+      "title": "Prof. Dr.",
+      "specialty": "Neuroradiology",
+      "subspecialty": "Brain and spine imaging",
+      "intro": "A demonstration expert profile with academic experience in brain, spine and head-neck imaging.",
+      "experience": "Clinical and academic review experience",
+      "education": ["Radiology residency training", "Academic work focused on neuroradiology"],
+      "interests": ["Brain MRI", "Spine MRI", "Tumor follow-up", "Vascular imaging"],
+      "languages": ["Turkish", "English"],
+      "modalities": ["MRI", "CT", "Angiography"],
+      "reviewTime": "Confirmed after operational approval"
+    },
+    "ayse-demir": {
+      "name": "Ayşe Demir",
+      "title": "Prof. Dr.",
+      "specialty": "Musculoskeletal Radiology",
+      "subspecialty": "Joints, sports injuries and spine",
+      "intro": "A demonstration physician profile focused on musculoskeletal imaging.",
+      "experience": "Musculoskeletal imaging experience",
+      "education": ["Radiology residency training", "Musculoskeletal imaging programs"],
+      "interests": ["Knee MRI", "Shoulder MRI", "Sports injuries", "Soft tissue"],
+      "languages": ["Turkish", "English"],
+      "modalities": ["MRI", "CT", "X-ray"],
+      "reviewTime": "Confirmed after operational approval"
+    },
+    "selin-aras": {
+      "name": "Selin Aras",
+      "title": "Assoc. Prof. Dr.",
+      "specialty": "Breast Imaging",
+      "subspecialty": "Mammography, breast MRI and ultrasound",
+      "intro": "A demonstration profile in breast imaging and interventional radiology.",
+      "experience": "Breast imaging experience",
+      "education": ["Radiology residency training", "Focused breast imaging education"],
+      "interests": ["Mammography", "Breast MRI", "Screening findings", "Follow-up studies"],
+      "languages": ["Turkish", "English"],
+      "modalities": ["Mammography", "MRI", "Ultrasound"],
+      "reviewTime": "Confirmed after operational approval"
+    },
+    "emre-sahin": {
+      "name": "Emre Şahin",
+      "title": "Assoc. Prof. Dr.",
+      "specialty": "Thoracic Radiology",
+      "subspecialty": "Chest CT and oncology follow-up",
+      "intro": "A demonstration expert profile for chest imaging and follow-up studies.",
+      "experience": "Thoracic imaging experience",
+      "education": ["Radiology residency training", "Thoracic imaging clinical programs"],
+      "interests": ["Chest CT", "Nodule follow-up", "Oncology imaging", "PET/CT correlation"],
+      "languages": ["Turkish", "English"],
+      "modalities": ["CT", "PET/CT", "X-ray"],
+      "reviewTime": "Confirmed after operational approval"
+    }
+  }
+}

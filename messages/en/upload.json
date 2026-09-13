@@ -1,0 +1,25 @@
+{
+  "demo": {
+    "title": "Upload your medical images",
+    "text": "You can select imaging files from a CD, USB drive or your computer.",
+    "aria": "Choose demo DICOM files",
+    "stats": {
+      "study": "Study",
+      "series": "Series",
+      "images": "Images"
+    },
+    "stages": [
+      { "title": "Images uploading", "detail": "348 / 612", "progress": 56 },
+      { "title": "Medical images validating", "detail": "Checking DICOM files", "progress": 72 },
+      { "title": "Study detected", "detail": "Brain MRI", "progress": 84 },
+      { "title": "Series preparing", "detail": "1 Study - 13 Series - 612 Images", "progress": 94 },
+      { "title": "Ready for expert review", "detail": "Secure viewer is ready to open", "progress": 100 }
+    ]
+  },
+  "dropzone": {
+    "title": "Upload your medical images",
+    "text": "You can select imaging files from a CD, USB drive or your computer. ZIP uploads are also supported.",
+    "aria": "Choose DICOM or ZIP files",
+    "checks": ["File check", "DICOM validation", "Viewer preparation"]
+  }
+}

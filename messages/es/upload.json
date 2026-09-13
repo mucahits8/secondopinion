@@ -1,0 +1,25 @@
+{
+  "demo": {
+    "title": "Suba sus imágenes médicas",
+    "text": "Puede seleccionar archivos de imagen desde un CD, USB o su computadora.",
+    "aria": "Elegir archivos DICOM demo",
+    "stats": {
+      "study": "Study",
+      "series": "Series",
+      "images": "Images"
+    },
+    "stages": [
+      { "title": "Subiendo imágenes", "detail": "348 / 612", "progress": 56 },
+      { "title": "Validando imágenes médicas", "detail": "Comprobando archivos DICOM", "progress": 72 },
+      { "title": "Estudio detectado", "detail": "RM cerebral", "progress": 84 },
+      { "title": "Preparando series", "detail": "1 Study - 13 Series - 612 Images", "progress": 94 },
+      { "title": "Listo para revisión experta", "detail": "El visor seguro está listo para abrir", "progress": 100 }
+    ]
+  },
+  "dropzone": {
+    "title": "Suba sus imágenes médicas",
+    "text": "Puede seleccionar archivos de imagen desde un CD, USB o su computadora. También se admiten cargas ZIP.",
+    "aria": "Elegir archivos DICOM o ZIP",
+    "checks": ["Comprobación de archivo", "Validación DICOM", "Preparación del visor"]
+  }
+}

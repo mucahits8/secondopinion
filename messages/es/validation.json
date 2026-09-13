@@ -1,0 +1,7 @@
+{
+  "wizard": {
+    "default": "Puede continuar cuando complete los campos obligatorios.",
+    "clinicalQuestion": "Escriba con al menos 12 caracteres la pregunta que desea que responda el experto.",
+    "images": "Seleccione al menos un archivo de imagen para completar la solicitud."
+  }
+}

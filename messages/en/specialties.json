@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "title": "Specialties",
+    "description": "Second opinion areas for brain, spine, musculoskeletal, breast, thoracic, abdominal and oncology imaging."
+  },
+  "page": {
+    "eyebrow": "Medical imaging areas",
+    "title": "Start the second opinion in the right specialty.",
+    "text": "Patient choice stays simple; once images are uploaded, technical modality information is validated separately by the system."
+  },
+  "items": {
+    "brain-spine": { "title": "Brain and Spine", "description": "Brain MRI, spine MRI, head-neck and nervous system imaging." },
+    "musculoskeletal": { "title": "Musculoskeletal", "description": "Joints, bone, soft tissue, sports injuries and spine." },
+    "breast": { "title": "Breast", "description": "Mammography, breast MRI and follow-up imaging." },
+    "chest": { "title": "Chest", "description": "Chest CT, lung nodule follow-up and thoracic studies." },
+    "abdomen": { "title": "Abdomen", "description": "Liver, pancreas, kidney and abdominal imaging." },
+    "oncology": { "title": "Oncology Imaging", "description": "PET/CT, follow-up studies and treatment response assessment." },
+    "vascular": { "title": "Vascular", "description": "CT angiography, MR angiography and vascular imaging." },
+    "secure-process": { "title": "Secure Process", "description": "Authorized access and case-based controlled sharing." }
+  }
+}

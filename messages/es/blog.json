@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "Blog",
+    "description": "Guías de Second Opinion sobre imagen médica, DICOM, selección de expertos y entrega de informes."
+  },
+  "page": {
+    "eyebrow": "Centro de conocimiento",
+    "title": "Guía de imagen médica y segunda opinión.",
+    "text": "Guías claras para pacientes que explican el proceso sin ofrecer diagnóstico ni consejo terapéutico.",
+    "all": "Todo",
+    "featured": "Destacado",
+    "trustNotes": [
+      { "title": "No es consejo médico", "text": "Los contenidos explican el proceso y apoyan conversaciones informadas." },
+      { "title": "Sin promesas exageradas", "text": "No se usan tasas de éxito, garantías ni certificaciones inventadas." },
+      { "title": "Lenguaje para pacientes", "text": "DICOM y el flujo del caso se explican de forma sencilla." }
+    ],
+    "guides": {
+      "title": "Todas las guías",
+      "text": "Una biblioteca inicial que explica la experiencia del paciente, carga de imágenes, selección de expertos, entrega del informe y principios de seguridad de Second Opinion.",
+      "action": "Iniciar segunda opinión"
+    },
+    "readingPath": {
+      "eyebrow": "Ruta de lectura",
+      "title": "Lea en el orden en que piensa el paciente.",
+      "text": "El blog acompaña el flujo del producto: entender la segunda opinión, subir DICOM, elegir experto y recibir el informe."
+    },
+    "next": {
+      "eyebrow": "Siguiente paso",
+      "title": "Convierta lo leído en un flujo de solicitud simple."
+    }
+  },
+  "post": {
+    "back": "Volver al blog",
+    "summary": "Resumen rápido",
+    "medicalWarning": "Aviso médico",
+    "warningText": "Este contenido no es diagnóstico, tratamiento ni orientación médica de emergencia. En urgencias, contacte directamente con los servicios de salud.",
+    "readyTitle": "¿Listo para empezar?",
+    "readyText": "Añada paso a paso su pregunta clínica, archivo de imagen y documentos de apoyo.",
+    "related": "Guías relacionadas",
+    "fallbackTitle": "Blog"
+  },
+  "posts": [
+    {
+      "slug": "second-opinion-nedir",
+      "title": "¿Qué es una segunda opinión y cuándo puede ser útil?",
+      "excerpt": "Una explicación clara de qué incluye una segunda opinión experta, qué no incluye y cómo puede ofrecer al paciente una base más clara para conversar.",
+      "category": "Segunda Opinión",
+      "readMinutes": 5,
+      "hero": "/illustrations/clinic-background.webp",
+      "featured": true,
+      "takeaways": ["Una segunda opinión busca otra revisión experta basada en imágenes e información clínica existentes.", "No reemplaza la atención de urgencias.", "El mejor resultado empieza con una pregunta clara del paciente."],
+      "sections": [
+        { "heading": "El propósito de una segunda opinión", "body": ["Second Opinion está diseñado para revisar el estudio de imagen médica existente del paciente y la información clínica relevante desde otra perspectiva experta. El objetivo no es añadir ruido, sino hacer más comprensible la información disponible.", "La plataforma no promete certeza diagnóstica. Ayuda al experto a explicar los hallazgos de imagen en un informe estructurado y a responder la pregunta específica del paciente dentro de un alcance controlado."] },
+        { "heading": "¿Cuándo puede ayudar?", "body": ["Puede ser útil cuando el paciente tiene dificultad para interpretar un informe existente, desea comparar con estudios previos o quiere que un hallazgo concreto sea revisado nuevamente por un experto.", "No reemplaza la relación del paciente con su médico tratante ni su plan de seguimiento. El informe debe considerarse una perspectiva experta adicional para conversar con el equipo de atención actual."] },
+        { "heading": "Lo que no es", "body": ["Second Opinion no es un servicio médico de urgencia. Síntomas súbitos intensos, situaciones urgentes o molestias críticas en el tiempo deben atenderse directamente por servicios de urgencia.", "Tampoco es un chat ilimitado médico-paciente ni una consulta por video. Las solicitudes de aclaración sobre el informe avanzan mediante un proceso operativo controlado."] }
+      ]
+    },
+    {
+      "slug": "dicom-dosyasi-nedir",
+      "title": "¿Qué es un archivo DICOM y por qué importa?",
+      "excerpt": "La mayoría de estudios de RM, TC y similares se almacenan en formato DICOM. Reunimos los puntos prácticos que conviene conocer.",
+      "category": "DICOM",
+      "readMinutes": 4,
+      "hero": "/hero/dicom-brain-demo.webp",
+      "takeaways": ["DICOM es el formato estándar de los equipos de imagen médica.", "Un CD o USB puede contener archivos individuales o una estructura de carpetas.", "La carga ZIP ayuda a conservar la estructura durante la transferencia."],
+      "sections": [
+        { "heading": "¿Qué contiene DICOM?", "body": ["Los archivos DICOM pueden incluir no solo la imagen, sino también información del estudio y de las series. Por eso una RM puede estar formada por muchas series y cientos de imágenes, no por un único archivo.", "El prototipo de Second Opinion presenta esta complejidad técnica mediante una carga sencilla para que el paciente no tenga que gestionarla manualmente."] },
+        { "heading": "¿Por qué puede no bastar un informe PDF?", "body": ["Un informe PDF ayuda a entender la interpretación previa, pero en muchos casos el experto también necesita el estudio DICOM para revisar las imágenes reales.", "Por eso el flujo considera obligatorios los archivos de imagen y trata informes o documentos previos como información de apoyo."] }
+      ]
+    },
+    {
+      "slug": "goruntuleme-yuklerken-nelere-dikkat-edilmeli",
+      "title": "¿Qué revisar al subir archivos de imagen?",
+      "excerpt": "Una lista de comprobación sencilla para cargas desde CD, USB, carpetas y ZIP que ayuda a mantener completo el estudio.",
+      "category": "Guía de Carga",
+      "readMinutes": 6,
+      "hero": "/illustrations/radiology-workspace.webp",
+      "takeaways": ["Es más seguro subir todo el contenido del CD que extraer carpetas una por una.", "Si hay varios estudios, el sistema puede identificarlos por separado.", "Los documentos categorizados ayudan a que operaciones revise el caso con mayor rapidez."],
+      "sections": [
+        { "heading": "Conserve la estructura de carpetas", "body": ["Los CD de imagen pueden guardar archivos en varias carpetas. Cambiar esa estructura puede hacer que algunas series parezcan incompletas.", "Cuando sea posible, seleccione todo el contenido del CD o USB, o comprímalo como ZIP antes de subirlo para una transferencia más consistente."] },
+        { "heading": "Añada documentos de apoyo por separado", "body": ["Informes radiológicos, epicrisis, patología y resultados de laboratorio deben subirse separados de las imágenes y asignarse a la categoría adecuada.", "Esta separación facilita la lectura de la información en la clasificación administrativa y en la revisión del experto."] }
+      ]
+    },
+    {
+      "slug": "uzman-secimi-nasil-yapilir",
+      "title": "¿Cómo funciona la selección de experto?",
+      "excerpt": "Una explicación práctica de dos modelos MVP: elegir médico directamente o dejar la selección a la plataforma.",
+      "category": "Selección de Experto",
+      "readMinutes": 4,
+      "hero": "/hero/doctor-neuroradiology.webp",
+      "takeaways": ["El paciente puede revisar perfiles médicos antes de elegir.", "También puede dejar la asignación al equipo operativo de Second Opinion.", "El MVP prioriza control operativo manual en lugar de matching automático."],
+      "sections": [
+        { "heading": "¿Qué importa en un perfil médico?", "body": ["Un perfil médico no debe sentirse como una red social. Debe ser una página sobria de autoridad clínica que destaque especialidad, intereses, tipos de imagen revisados e idiomas.", "Sin contenido real no se deben inventar publicaciones, vínculos institucionales, comentarios de pacientes ni tasas de éxito."] },
+        { "heading": "Dejar la selección a la plataforma", "body": ["Si el paciente no sabe qué experto corresponde, puede dejar la selección al equipo operativo de Second Opinion. En el MVP, esta asignación se maneja manualmente y no mediante un algoritmo automático.", "Este enfoque reduce riesgos clínicos y mantiene más controlado el envío a la especialidad correcta."] }
+      ]
+    },
+    {
+      "slug": "rapor-nasil-teslim-edilir",
+      "title": "¿Cómo se entrega el informe de segunda opinión?",
+      "excerpt": "Por qué el informe final no se envía como adjunto de correo y por qué importan la cuenta segura y el informe estructurado.",
+      "category": "Entrega del Informe",
+      "readMinutes": 5,
+      "hero": "/ui/document-icon.png",
+      "takeaways": ["El informe final se consulta desde la cuenta segura.", "El PDF se genera desde el informe estructurado.", "Si un informe final cambia, debe usarse versión nueva o addendum."],
+      "sections": [
+        { "heading": "¿Por qué un informe estructurado?", "body": ["Un informe de segunda opinión no debe comportarse como un documento Word suelto. Secciones como información clínica, estudio, hallazgos, valoración, respuesta a la pregunta del paciente, recomendaciones y limitaciones facilitan la lectura.", "Esta estructura aumenta la claridad para el paciente y mantiene más controlados los flujos operativos y de auditoría."] },
+        { "heading": "¿Por qué el informe final debe ser inmutable?", "body": ["Cuando el médico finaliza el informe y se comparte con el paciente, el contenido compartido debe preservarse. Si después se requiere aclaración o corrección, crear una nueva versión o addendum es el comportamiento de producto más adecuado."] }
+      ]
+    },
+    {
+      "slug": "saglik-verileri-nasil-korunur",
+      "title": "¿Cómo deben tratarse los datos de salud en una segunda opinión digital?",
+      "excerpt": "Una explicación en lenguaje de producto sobre conexión segura, acceso autorizado, auditoría e intercambio controlado.",
+      "category": "Seguridad",
+      "readMinutes": 6,
+      "hero": "/illustrations/world-map.png",
+      "takeaways": ["Los datos de salud deben tratarse como datos sensibles.", "El estado de negocio y el estado técnico no deben confundirse.", "El acceso a informes y documentos debe ser auditable."],
+      "sections": [
+        { "heading": "Acceso autorizado", "body": ["Paciente, administración y médicos expertos no deben acceder a la misma información con el mismo nivel. La autorización por caso busca que cada persona vea solo lo necesario.", "Este prototipo no implementa infraestructura real de seguridad, pero el lenguaje de pantalla y la arquitectura del producto siguen ese principio."] },
+        { "heading": "Por qué importa la auditoría", "body": ["En una plataforma con datos de salud, acciones como ver documentos, acceder a DICOM, finalizar informes, pagos y actualizar datos del paciente deben registrarse.", "Los registros de auditoría deben separarse de las pantallas normales y permitir revisión posterior de las operaciones."] }
+      ]
+    }
+  ]
+}

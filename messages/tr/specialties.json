@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "title": "Uzmanlık Alanları",
+    "description": "Beyin, omurga, kas-iskelet, meme, toraks, abdomen ve onkolojik görüntüleme için ikinci görüş alanları."
+  },
+  "page": {
+    "eyebrow": "Tıbbi görüntüleme alanları",
+    "title": "İkinci görüşü doğru uzmanlık alanında başlatın.",
+    "text": "Hasta seçimi sade tutulur; görüntü yüklendikten sonra teknik modality bilgisi sistem tarafında ayrıca doğrulanacak şekilde tasarlanır."
+  },
+  "items": {
+    "brain-spine": { "title": "Beyin ve Omurga", "description": "Beyin MR, omurga MR, baş-boyun ve sinir sistemi görüntülemeleri." },
+    "musculoskeletal": { "title": "Kas-iskelet", "description": "Eklem, kemik, yumuşak doku, spor yaralanmaları ve omurga." },
+    "breast": { "title": "Meme", "description": "Mamografi, meme MR ve takip amaçlı görüntülemeler." },
+    "chest": { "title": "Göğüs", "description": "Göğüs BT, akciğer nodül takibi ve toraks incelemeleri." },
+    "abdomen": { "title": "Abdomen", "description": "Karaciğer, pankreas, böbrek ve batın görüntülemeleri." },
+    "oncology": { "title": "Onkolojik Görüntüleme", "description": "PET/CT, takip incelemeleri ve tedavi yanıtı değerlendirmeleri." },
+    "vascular": { "title": "Vasküler", "description": "BT anjiyografi, MR anjiyografi ve damar görüntülemeleri." },
+    "secure-process": { "title": "Güvenli Süreç", "description": "Yetkilendirilmiş erişim ve vaka bazlı kontrollü paylaşım." }
+  }
+}

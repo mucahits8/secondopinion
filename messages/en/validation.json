@@ -1,0 +1,7 @@
+{
+  "wizard": {
+    "default": "You can continue once the required fields are complete.",
+    "clinicalQuestion": "Write the question you want the expert to answer using at least 12 characters.",
+    "images": "Select at least one imaging file to complete the request."
+  }
+}

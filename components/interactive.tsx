@@ -1,18 +1,15 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
 import { Check, ChevronDown, FileCheck2, FileText, FolderUp, LockKeyhole, UploadCloud } from "lucide-react";
 import { caseSteps } from "@/data/cases";
-import { faqs } from "@/data/faqs";
+import type { FaqItem } from "@/data/faqs";
 
 export function DicomUploadDemo() {
-  const stages = [
-    { title: "Görüntüler yükleniyor", detail: "348 / 612", progress: 56 },
-    { title: "Tıbbi görüntüler doğrulanıyor", detail: "DICOM dosyaları kontrol ediliyor", progress: 72 },
-    { title: "Çalışma algılandı", detail: "Brain MRI", progress: 84 },
-    { title: "Seriler hazırlanıyor", detail: "1 Study - 13 Series - 612 Images", progress: 94 },
-    { title: "Uzman değerlendirmesi için hazır", detail: "Güvenli viewer açılmaya hazır", progress: 100 },
-  ];
+  const t = useTranslations("upload.demo");
+  const common = useTranslations("common.actions");
+  const stages = t.raw("stages") as Array<{ title: string; detail: string; progress: number }>;
   const [active, setActive] = useState(0);
 
   useEffect(() => {
@@ -24,13 +21,13 @@ export function DicomUploadDemo() {
     <div className="surface-card rounded-[14px] p-5 shadow-[var(--shadow-soft)]">
       <div className="rounded-[12px] border border-dashed border-[rgba(20,111,193,0.42)] bg-[#fbfdff] p-6 text-center">
         <UploadCloud className="mx-auto text-[var(--blue)]" size={38} strokeWidth={1.8} />
-        <h3 className="mt-3 text-lg font-bold text-[var(--navy)]">Tıbbi görüntülerinizi yükleyin</h3>
+        <h3 className="mt-3 text-lg font-bold text-[var(--navy)]">{t("title")}</h3>
         <p className="mx-auto mt-2 max-w-sm text-sm leading-6 text-[var(--text-secondary)]">
-          CD, USB veya bilgisayarınızdaki görüntüleme dosyalarını seçebilirsiniz.
+          {t("text")}
         </p>
         <label className="btn-primary mt-5 min-h-10 cursor-pointer px-5">
-          Dosyaları Seç
-          <input type="file" multiple className="sr-only" aria-label="Demo DICOM dosyalarını seç" />
+          {common("chooseFiles")}
+          <input type="file" multiple className="sr-only" aria-label={t("aria")} />
         </label>
       </div>
       <div className="mt-5">
@@ -45,9 +42,9 @@ export function DicomUploadDemo() {
       </div>
       <div className="mt-5 grid grid-cols-3 gap-3">
         {[
-          ["1", "Study"],
-          ["13", "Series"],
-          ["612", "Images"],
+          ["1", t("stats.study")],
+          ["13", t("stats.series")],
+          ["612", t("stats.images")],
         ].map(([value, label]) => (
           <div key={label} className="rounded-[10px] bg-[var(--pale-blue)] p-3 text-center">
             <strong className="block text-xl text-[var(--navy)]">{value}</strong>
@@ -60,11 +57,13 @@ export function DicomUploadDemo() {
 }
 
 export function CaseJourneyTimeline({ compact = false }: { compact?: boolean }) {
+  const t = useTranslations("common.statuses");
+
   return (
     <div className={`surface-card rounded-[14px] ${compact ? "p-5" : "p-7"}`}>
       <div className="grid gap-4 md:grid-cols-5">
         {caseSteps.map((step, index) => (
-          <div key={step.label} className="relative flex gap-3 md:block">
+          <div key={step.labelKey} className="relative flex gap-3 md:block">
             {index < caseSteps.length - 1 && <span className="absolute left-4 top-4 hidden h-0.5 w-[calc(100%+1rem)] origin-left bg-[var(--border)] md:block" />}
             {index < 3 && index < caseSteps.length - 1 && <span className="draw-line absolute left-4 top-4 hidden h-0.5 w-[calc(100%+1rem)] origin-left bg-[var(--blue)] md:block" />}
             <span
@@ -78,7 +77,7 @@ export function CaseJourneyTimeline({ compact = false }: { compact?: boolean }) 
             >
               {step.state === "done" ? <Check size={16} /> : index + 1}
             </span>
-            <p className="mt-1 text-sm font-semibold text-[var(--navy)] md:mt-3">{step.label}</p>
+            <p className="mt-1 text-sm font-semibold text-[var(--navy)] md:mt-3">{t(step.labelKey)}</p>
           </div>
         ))}
       </div>
@@ -87,15 +86,17 @@ export function CaseJourneyTimeline({ compact = false }: { compact?: boolean }) 
 }
 
 export function ReportPreview() {
-  const sections = ["Klinik Bilgi", "İnceleme", "Bulgular", "Değerlendirme", "Hastanın Sorusuna Yanıt", "Öneriler"];
+  const t = useTranslations("report.preview");
+  const common = useTranslations("common");
+  const sections = t.raw("sections") as string[];
   return (
     <div className="surface-card rounded-[14px] bg-white p-6 shadow-[var(--shadow-soft)]">
       <div className="mb-6 flex items-center justify-between border-b border-[var(--border)] pb-4">
         <div>
-          <p className="text-xs font-bold uppercase tracking-[0.2em] text-[var(--blue)]">Second Opinion</p>
-          <h3 className="mt-1 text-xl font-bold text-[var(--navy)]">Uzman Raporu</h3>
+          <p className="text-xs font-bold uppercase tracking-[0.2em] text-[var(--blue)]">{t("eyebrow")}</p>
+          <h3 className="mt-1 text-xl font-bold text-[var(--navy)]">{t("title")}</h3>
         </div>
-        <span className="rounded-md bg-[var(--pale-blue)] px-3 py-1 text-xs font-bold text-[var(--blue)]">SO-2026-00184</span>
+        <span className="rounded-md bg-[var(--pale-blue)] px-3 py-1 text-xs font-bold text-[var(--blue)]">{common("demo.applicationId")}</span>
       </div>
       <div className="space-y-4">
         {sections.map((section, index) => (
@@ -109,8 +110,8 @@ export function ReportPreview() {
         ))}
       </div>
       <div className="mt-6 flex items-center justify-between border-t border-[var(--border)] pt-4 text-sm text-[var(--text-secondary)]">
-        <span>Prof. Dr. Mehmet Kaya</span>
-        <span>Final v1</span>
+        <span>{t("doctor")}</span>
+        <span>{common("demo.finalVersion")}</span>
       </div>
     </div>
   );
@@ -118,6 +119,9 @@ export function ReportPreview() {
 
 export function FAQAccordion() {
   const [open, setOpen] = useState(0);
+  const t = useTranslations("home");
+  const faqs = t.raw("faq") as FaqItem[];
+
   return (
     <div className="divide-y divide-[var(--border)] overflow-hidden rounded-[14px] border border-[var(--border)] bg-white">
       {faqs.map((faq, index) => (
@@ -138,19 +142,23 @@ export function FAQAccordion() {
 }
 
 export function UploadDropzone() {
+  const t = useTranslations("upload.dropzone");
+  const common = useTranslations("common.actions");
+  const checks = t.raw("checks") as string[];
+
   return (
     <div className="rounded-[14px] border border-dashed border-[rgba(20,111,193,0.45)] bg-white p-10 text-center">
       <FolderUp className="mx-auto text-[var(--blue)]" size={42} strokeWidth={1.8} />
-      <h2 className="mt-4 text-2xl font-bold text-[var(--navy)]">Tıbbi görüntülerinizi yükleyin</h2>
+      <h2 className="mt-4 text-2xl font-bold text-[var(--navy)]">{t("title")}</h2>
       <p className="mx-auto mt-2 max-w-lg text-[var(--text-secondary)]">
-        CD, USB veya bilgisayarınızdaki görüntüleme dosyalarını seçebilirsiniz. ZIP yüklemeleri de desteklenir.
+        {t("text")}
       </p>
       <label className="btn-primary mt-6 cursor-pointer">
-        Dosyaları Seç
-        <input type="file" multiple className="sr-only" aria-label="DICOM veya ZIP dosyalarını seç" />
+        {common("chooseFiles")}
+        <input type="file" multiple className="sr-only" aria-label={t("aria")} />
       </label>
       <div className="mx-auto mt-8 grid max-w-xl gap-3 text-left sm:grid-cols-3">
-        {["Dosya kontrolü", "DICOM doğrulama", "Viewer hazırlığı"].map((item) => (
+        {checks.map((item) => (
           <div key={item} className="rounded-[10px] bg-[var(--pale-blue)] p-3 text-sm font-semibold text-[var(--navy)]">
             <FileCheck2 className="mb-2 text-[var(--blue)]" size={18} /> {item}
           </div>

@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "Blog",
+    "description": "Guides on Second Opinion medical imaging, DICOM, expert selection and report delivery."
+  },
+  "page": {
+    "eyebrow": "Knowledge center",
+    "title": "A guide to medical imaging and second opinions.",
+    "text": "Clear patient-friendly guides that explain the process without offering diagnosis or treatment advice.",
+    "all": "All",
+    "featured": "Featured",
+    "trustNotes": [
+      { "title": "Not medical advice", "text": "Content is for decision support and process explanation." },
+      { "title": "No exaggerated promises", "text": "No success-rate, guarantee or invented certification language." },
+      { "title": "Patient-friendly language", "text": "DICOM and case flow are explained in plain terms." }
+    ],
+    "guides": {
+      "title": "All guides",
+      "text": "A starter library explaining the patient experience, image upload, expert selection, report delivery and security principles behind Second Opinion.",
+      "action": "Start a second opinion"
+    },
+    "readingPath": {
+      "eyebrow": "Reading path",
+      "title": "Read in the order patients naturally think.",
+      "text": "The blog supports the product flow: first understanding second opinions, then DICOM upload, expert selection and report delivery."
+    },
+    "next": {
+      "eyebrow": "Next step",
+      "title": "Turn what you read into a simple application flow."
+    }
+  },
+  "post": {
+    "back": "Back to blog",
+    "summary": "Quick summary",
+    "medicalWarning": "Medical notice",
+    "warningText": "This content is not diagnosis, treatment advice or emergency medical guidance. In emergencies, contact healthcare services directly.",
+    "readyTitle": "Ready to start?",
+    "readyText": "Add your clinical question, imaging file and any supporting documents step by step.",
+    "related": "Related guides",
+    "fallbackTitle": "Blog"
+  },
+  "posts": [
+    {
+      "slug": "second-opinion-nedir",
+      "title": "What is a second opinion, and when can it be useful?",
+      "excerpt": "A clear explanation of what an expert second opinion includes, what it does not include, and how it can give patients a clearer basis for discussion.",
+      "category": "Second Opinion",
+      "readMinutes": 5,
+      "hero": "/illustrations/clinic-background.webp",
+      "featured": true,
+      "takeaways": ["A second opinion aims to provide another expert review based on existing imaging and clinical information.", "It is not a replacement for emergency care.", "The best result starts with a clear patient question."],
+      "sections": [
+        { "heading": "The purpose of a second opinion", "body": ["Second Opinion is designed to review a patient's existing medical imaging study and relevant clinical information through another expert perspective. The goal is not to add more noise, but to make the information already available easier to understand.", "The platform does not promise diagnostic certainty. It helps the expert explain imaging findings in a structured report and respond to the patient's specific question within a controlled scope."] },
+        { "heading": "When can it help?", "body": ["A second opinion may be useful when a patient finds an existing report difficult to interpret, wants comparison with prior imaging, or wants a specific imaging finding reviewed again by an expert.", "It does not replace the patient's relationship with their treating physician or clinical follow-up plan. The report should be considered an additional expert perspective to discuss with the existing care team."] },
+        { "heading": "What it is not", "body": ["Second Opinion is not an emergency medical service. Sudden severe symptoms, urgent conditions or time-critical complaints should be handled directly through emergency healthcare services.", "It is also not an unlimited doctor-patient chat or a video consultation. Clarification requests related to the report move through a controlled operational process."] }
+      ]
+    },
+    {
+      "slug": "dicom-dosyasi-nedir",
+      "title": "What is a DICOM file and why does it matter?",
+      "excerpt": "Most MRI, CT and similar imaging studies are stored in DICOM format. Here are the practical points patients should know.",
+      "category": "DICOM",
+      "readMinutes": 4,
+      "hero": "/hero/dicom-brain-demo.webp",
+      "takeaways": ["DICOM is the standard file format used by medical imaging devices.", "A CD or USB may contain individual files or a folder structure.", "ZIP upload can help preserve the folder structure during transfer."],
+      "sections": [
+        { "heading": "What does DICOM carry?", "body": ["DICOM files can carry not only the image itself, but also study and series information. That is why an MRI study may include many series and hundreds of images rather than a single file.", "The Second Opinion prototype presents this technical complexity through a patient-friendly upload flow so the patient does not have to manage it manually."] },
+        { "heading": "Why may a PDF report not be enough?", "body": ["A PDF report is useful for understanding the previous interpretation, but in many cases the expert also needs the DICOM study to review the actual images.", "For that reason, the application flow treats imaging files as required and prior reports or documents as supporting information."] }
+      ]
+    },
+    {
+      "slug": "goruntuleme-yuklerken-nelere-dikkat-edilmeli",
+      "title": "What should you check when uploading imaging files?",
+      "excerpt": "A patient-friendly checklist for CD, USB, folder and ZIP uploads that helps keep the study complete.",
+      "category": "Upload Guide",
+      "readMinutes": 6,
+      "hero": "/illustrations/radiology-workspace.webp",
+      "takeaways": ["Uploading the full CD content is safer than extracting folders one by one.", "If there are multiple studies, the system may identify them separately.", "Categorized supporting documents help operations review the case faster."],
+      "sections": [
+        { "heading": "Preserve the folder structure", "body": ["Imaging CDs can store files across multiple folders. Changing that structure may cause some series to appear incomplete.", "When possible, select the full CD or USB content, or compress it as a ZIP file before uploading for a more consistent transfer."] },
+        { "heading": "Add supporting documents separately", "body": ["Radiology reports, discharge summaries, pathology reports and lab results should be uploaded separately from imaging files and assigned to the right category.", "This separation makes information easier to read in admin triage and expert review screens."] }
+      ]
+    },
+    {
+      "slug": "uzman-secimi-nasil-yapilir",
+      "title": "How does expert selection work?",
+      "excerpt": "A practical explanation of two MVP models: patients choosing a physician themselves or leaving the selection to the platform.",
+      "category": "Expert Selection",
+      "readMinutes": 4,
+      "hero": "/hero/doctor-neuroradiology.webp",
+      "takeaways": ["Patients can review physician profiles before choosing.", "They can also leave matching to the Second Opinion operations team.", "The MVP favors manual operational control instead of automatic matching."],
+      "sections": [
+        { "heading": "What matters in a doctor profile?", "body": ["A doctor profile should not feel like a social media page. It should be a quiet clinical authority page that highlights specialty, focused interests, imaging types reviewed and languages.", "Without real content, the product should not invent publication counts, institutional relationships, patient testimonials or success rates."] },
+        { "heading": "Leaving selection to the platform", "body": ["If a patient is not sure which expert is appropriate, they can leave selection to the Second Opinion operations team. In the MVP, this matching is handled manually rather than by an automatic algorithm.", "This approach reduces clinical risk and keeps routing to the correct specialty under better control."] }
+      ]
+    },
+    {
+      "slug": "rapor-nasil-teslim-edilir",
+      "title": "How is the second opinion report delivered?",
+      "excerpt": "Why the final report is not sent as an email attachment, and why secure account access and structured reporting matter.",
+      "category": "Report Delivery",
+      "readMinutes": 5,
+      "hero": "/ui/document-icon.png",
+      "takeaways": ["The final report is viewed through the secure account.", "PDF delivery is generated from the structured report.", "If a finalized report changes, versioning or an addendum should be used."],
+      "sections": [
+        { "heading": "Why a structured report?", "body": ["A second opinion report should not behave like a loose Word document. Sections such as clinical information, study, findings, assessment, answer to the patient question, recommendations and limitations make it easier to read.", "This structure improves patient clarity while keeping operations and audit workflows more controlled."] },
+        { "heading": "Why should the final report be immutable?", "body": ["Once a physician finalizes the report and it is shared with the patient, the shared content should be preserved. If clarification or correction is needed later, creating a new version or addendum is the more appropriate product behavior."] }
+      ]
+    },
+    {
+      "slug": "saglik-verileri-nasil-korunur",
+      "title": "How should health data be handled in a digital second opinion process?",
+      "excerpt": "A product-language overview of secure connection, authorized access, audit records and controlled sharing.",
+      "category": "Security",
+      "readMinutes": 6,
+      "hero": "/illustrations/world-map.png",
+      "takeaways": ["Health data should be treated as sensitive data.", "Business status and technical status should not be confused.", "Report and document access should be auditable."],
+      "sections": [
+        { "heading": "Authorized access", "body": ["Patients, admins and expert physicians should not access the same information at the same level. Case-based authorization aims to give each person only the information they need.", "This prototype does not implement real security infrastructure, but the screen language and product architecture are shaped around that principle."] },
+        { "heading": "Why audit matters", "body": ["In a platform that handles health data, document viewing, DICOM access, report finalization, payment and patient data updates should be recorded.", "Audit records should be treated separately from ordinary application screens and should support reviewability after operations take place."] }
+      ]
+    }
+  ]
+}

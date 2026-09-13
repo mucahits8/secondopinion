@@ -1,0 +1,17 @@
+{
+  "dashboard": {
+    "metadata": {
+      "title": "Panel del Paciente"
+    },
+    "greeting": "Buen día, {name}.",
+    "title": "Su solicitud activa está siendo revisada por su experto.",
+    "text": "El siguiente paso es preparar el informe. Si se necesita más información, recibirá una notificación aquí.",
+    "facts": {
+      "expected": "Resultado estimado",
+      "expert": "Experto",
+      "reviewed": "Revisado",
+      "documents": "Documentos"
+    },
+    "patientQuestion": "Pregunta del paciente"
+  }
+}

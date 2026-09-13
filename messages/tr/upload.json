@@ -1,0 +1,25 @@
+{
+  "demo": {
+    "title": "Tıbbi görüntülerinizi yükleyin",
+    "text": "CD, USB veya bilgisayarınızdaki görüntüleme dosyalarını seçebilirsiniz.",
+    "aria": "Demo DICOM dosyalarını seç",
+    "stats": {
+      "study": "Study",
+      "series": "Series",
+      "images": "Images"
+    },
+    "stages": [
+      { "title": "Görüntüler yükleniyor", "detail": "348 / 612", "progress": 56 },
+      { "title": "Tıbbi görüntüler doğrulanıyor", "detail": "DICOM dosyaları kontrol ediliyor", "progress": 72 },
+      { "title": "Çalışma algılandı", "detail": "Brain MRI", "progress": 84 },
+      { "title": "Seriler hazırlanıyor", "detail": "1 Study - 13 Series - 612 Images", "progress": 94 },
+      { "title": "Uzman değerlendirmesi için hazır", "detail": "Güvenli viewer açılmaya hazır", "progress": 100 }
+    ]
+  },
+  "dropzone": {
+    "title": "Tıbbi görüntülerinizi yükleyin",
+    "text": "CD, USB veya bilgisayarınızdaki görüntüleme dosyalarını seçebilirsiniz. ZIP yüklemeleri de desteklenir.",
+    "aria": "DICOM veya ZIP dosyalarını seç",
+    "checks": ["Dosya kontrolü", "DICOM doğrulama", "Viewer hazırlığı"]
+  }
+}

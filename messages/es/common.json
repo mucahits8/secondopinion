@@ -1,0 +1,138 @@
+{
+  "brand": {
+    "name": "Second Opinion",
+    "tagline": "Más claridad. Decisiones de salud mejor informadas.",
+    "homeAria": "Inicio de Second Opinion"
+  },
+  "metadata": {
+    "title": "Second Opinion",
+    "template": "{title} | Second Opinion",
+    "description": "Obtenga una segunda opinión segura de médicos expertos para sus estudios de imagen médica."
+  },
+  "languages": {
+    "label": "Idioma",
+    "tr": "Türkçe",
+    "en": "English",
+    "es": "Español"
+  },
+  "actions": {
+    "getSecondOpinion": "Solicitar Segunda Opinión",
+    "howItWorks": "Cómo Funciona",
+    "reviewExperts": "Ver Expertos",
+    "viewProfile": "Ver Perfil",
+    "read": "Leer",
+    "readArticle": "Leer artículo",
+    "continue": "Continuar",
+    "continueReading": "Continuar",
+    "back": "Atrás",
+    "details": "Detalles",
+    "inspect": "Revisar",
+    "viewCase": "Ver Caso",
+    "newApplication": "Nueva Solicitud",
+    "completeDraft": "Completar Borrador",
+    "chooseFiles": "Elegir Archivos"
+  },
+  "requirements": {
+    "required": "Obligatorio",
+    "optional": "Opcional"
+  },
+  "labels": {
+    "estimatedReview": "Revisión estimada",
+    "estimatedReport": "Tiempo estimado del informe",
+    "documents": "Documentos",
+    "expert": "Experto",
+    "status": "Estado",
+    "study": "Estudio",
+    "result": "Resultado",
+    "size": "Tamaño"
+  },
+  "units": {
+    "document": "{count, plural, one {# documento} other {# documentos}}",
+    "file": "{count, plural, one {# archivo seleccionado} other {# archivos seleccionados}}",
+    "minuteRead": "{minutes} min de lectura"
+  },
+  "statuses": {
+    "imagesReceived": "Imágenes recibidas",
+    "expertAssigned": "Experto asignado",
+    "underReview": "En revisión",
+    "reportPreparing": "Informe en preparación",
+    "completed": "Completado",
+    "readyForExpert": "Listo para revisión experta",
+    "online": "En línea"
+  },
+  "demo": {
+    "finalVersion": "Final v1",
+    "pdf": "PDF",
+    "applicationId": "SO-2026-00184",
+    "patientFirstName": "Ahmet"
+  },
+  "infoPages": {
+    "about": {
+      "metadata": "Acerca de",
+      "eyebrow": "Institucional",
+      "title": "Second Opinion se diseña para una experiencia segura de segunda opinión.",
+      "paragraphs": [
+        "La plataforma busca simplificar y controlar el proceso de segunda opinión enfocado en imágenes entre paciente, equipo operativo y médico experto.",
+        "Este prototipo no contiene afirmaciones sobre instituciones reales, certificaciones, tasas de éxito ni número de pacientes."
+      ]
+    },
+    "contact": {
+      "metadata": "Contacto",
+      "eyebrow": "Contacto",
+      "title": "La comunicación de casos y soporte se mantiene dentro de la plataforma.",
+      "paragraphs": [
+        "En el servicio real, la comunicación con pacientes no debe dispersarse por canales personales; debe avanzar por caso y quedar registrada.",
+        "Esta página muestra el enfoque de comunicación segura antes de conectar un formulario real."
+      ]
+    },
+    "cookies": {
+      "metadata": "Política de Cookies",
+      "eyebrow": "Legal",
+      "title": "La política de cookies debe escribirse según herramientas reales de analítica y seguridad.",
+      "paragraphs": [
+        "Este prototipo no publica un inventario real de cookies. Antes de producción debe prepararse una política transparente según las herramientas utilizadas."
+      ]
+    },
+    "help": {
+      "metadata": "Centro de Ayuda",
+      "eyebrow": "Soporte",
+      "title": "Soporte sencillo para carga, solicitud y entrega de informes.",
+      "paragraphs": [
+        "El centro de ayuda explicará temas prácticos como encontrar archivos DICOM, subir ZIP, añadir documentos de apoyo y acceder al informe.",
+        "Los errores técnicos y el estado clínico del caso se diseñan para tratarse por separado."
+      ]
+    },
+    "kvkk": {
+      "metadata": "KVKK",
+      "eyebrow": "Legal",
+      "title": "El aviso KVKK debe prepararse según los procesos reales.",
+      "paragraphs": [
+        "Debido al enfoque de Second Opinion en datos de salud, debe gestionarse bajo principios de datos personales sensibles. Este prototipo no publica texto legal."
+      ]
+    },
+    "pricing": {
+      "metadata": "Precios",
+      "eyebrow": "Precios",
+      "title": "Los precios se definirán con el modelo operativo real.",
+      "paragraphs": [
+        "Este prototipo no publica modelo de pago ni importes. El sistema puede admitir pago antes del envío, pago tras aceptación médica o modelos de autorización y captura."
+      ]
+    },
+    "privacy": {
+      "metadata": "Política de Privacidad",
+      "eyebrow": "Legal",
+      "title": "La política de privacidad debe completarse con revisión legal antes de producción.",
+      "paragraphs": [
+        "Esta página es una explicación provisional, no una política legal real. Tratamiento, conservación, intercambio de datos y derechos del usuario deben definirse antes del lanzamiento."
+      ]
+    },
+    "terms": {
+      "metadata": "Condiciones de Uso",
+      "eyebrow": "Legal",
+      "title": "Las condiciones de uso se definirán con el alcance de producción.",
+      "paragraphs": [
+        "Las condiciones reales deben indicar claramente que el servicio no es atención de urgencia, definir el alcance de la segunda opinión y explicar las condiciones de entrega del informe."
+      ]
+    }
+  }
+}

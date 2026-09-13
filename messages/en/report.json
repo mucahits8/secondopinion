@@ -1,0 +1,18 @@
+{
+  "preview": {
+    "eyebrow": "Second Opinion",
+    "title": "Expert Report",
+    "doctor": "Prof. Dr. Mehmet Kaya",
+    "sections": ["Clinical Information", "Study", "Findings", "Assessment", "Answer to Patient Question", "Recommendations"]
+  },
+  "result": {
+    "title": "Your Second Opinion report is ready.",
+    "text": "This screen demonstrates the final delivery experience. The prototype contains no real diagnostic text or real patient data.",
+    "summary": "Result summary",
+    "viewOpinion": "View Second Opinion",
+    "pdfInfo": "PDF Info",
+    "answerTitle": "Answer to the patient question",
+    "answerText": "This area summarizes the expert's clear response to the patient's specific question. No diagnosis or treatment recommendation is written in the prototype.",
+    "pdfText": "PDF download will be enabled when the real report generation service is connected. In this prototype, the button points to the report area and demonstrates delivery."
+  }
+}

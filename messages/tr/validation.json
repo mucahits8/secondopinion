@@ -1,0 +1,7 @@
+{
+  "wizard": {
+    "default": "Zorunlu alanlar tamamlanınca devam edebilirsiniz.",
+    "clinicalQuestion": "Uzmanın yanıtlamasını istediğiniz soruyu en az 12 karakterle yazın.",
+    "images": "Başvuruyu tamamlamak için en az bir görüntüleme dosyası seçin."
+  }
+}

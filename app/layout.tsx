@@ -13,17 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: "Second Opinion",
-    template: "%s | Second Opinion",
-  },
-  description:
-    "Tıbbi görüntülemeleriniz için alanında uzman hekimlerden güvenli ikinci görüş alın.",
+  title: "Second Opinion",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="tr" className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+    <html className={`${geistSans.variable} ${geistMono.variable} antialiased`} suppressHydrationWarning>
       <body>{children}</body>
     </html>
   );

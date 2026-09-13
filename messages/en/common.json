@@ -1,0 +1,138 @@
+{
+  "brand": {
+    "name": "Second Opinion",
+    "tagline": "More clarity. Healthier decisions.",
+    "homeAria": "Second Opinion home"
+  },
+  "metadata": {
+    "title": "Second Opinion",
+    "template": "{title} | Second Opinion",
+    "description": "Get a secure second opinion from expert physicians for your medical imaging."
+  },
+  "languages": {
+    "label": "Language",
+    "tr": "Türkçe",
+    "en": "English",
+    "es": "Español"
+  },
+  "actions": {
+    "getSecondOpinion": "Get a Second Opinion",
+    "howItWorks": "How It Works",
+    "reviewExperts": "Review Experts",
+    "viewProfile": "View Profile",
+    "read": "Read",
+    "readArticle": "Read article",
+    "continue": "Continue",
+    "continueReading": "Continue",
+    "back": "Back",
+    "details": "Details",
+    "inspect": "Review",
+    "viewCase": "View Case",
+    "newApplication": "New Application",
+    "completeDraft": "Complete Draft",
+    "chooseFiles": "Choose Files"
+  },
+  "requirements": {
+    "required": "Required",
+    "optional": "Optional"
+  },
+  "labels": {
+    "estimatedReview": "Estimated review",
+    "estimatedReport": "Estimated report timing",
+    "documents": "Documents",
+    "expert": "Expert",
+    "status": "Status",
+    "study": "Study",
+    "result": "Result",
+    "size": "Size"
+  },
+  "units": {
+    "document": "{count, plural, one {# document} other {# documents}}",
+    "file": "{count, plural, one {# file selected} other {# files selected}}",
+    "minuteRead": "{minutes} min read"
+  },
+  "statuses": {
+    "imagesReceived": "Images received",
+    "expertAssigned": "Expert assigned",
+    "underReview": "Under review",
+    "reportPreparing": "Report in preparation",
+    "completed": "Completed",
+    "readyForExpert": "Ready for expert review",
+    "online": "Online"
+  },
+  "demo": {
+    "finalVersion": "Final v1",
+    "pdf": "PDF",
+    "applicationId": "SO-2026-00184",
+    "patientFirstName": "Ahmet"
+  },
+  "infoPages": {
+    "about": {
+      "metadata": "About",
+      "eyebrow": "Company",
+      "title": "Second Opinion is being designed for a secure second opinion experience.",
+      "paragraphs": [
+        "The platform aims to make the imaging-focused second opinion process between patient, operations team and expert physician simple and controlled.",
+        "This prototype includes no claims about real institutions, certifications, success rates or patient volume."
+      ]
+    },
+    "contact": {
+      "metadata": "Contact",
+      "eyebrow": "Contact",
+      "title": "Case and support communication stays inside the platform.",
+      "paragraphs": [
+        "In the real service, patient communication should not scatter across personal channels; it should remain case-based and recorded.",
+        "This page demonstrates the secure communication approach before a live contact form is connected."
+      ]
+    },
+    "cookies": {
+      "metadata": "Cookie Policy",
+      "eyebrow": "Legal",
+      "title": "The cookie policy should be written around real analytics and security tools.",
+      "paragraphs": [
+        "This prototype does not publish a real cookie inventory. Before production, a transparent policy should be prepared according to the tools actually used."
+      ]
+    },
+    "help": {
+      "metadata": "Help Center",
+      "eyebrow": "Support",
+      "title": "Simple support for upload, application and report delivery.",
+      "paragraphs": [
+        "The help center will explain practical topics such as finding DICOM files, uploading ZIP files, adding supporting documents and accessing reports.",
+        "Technical errors and clinical case status are designed to be handled separately."
+      ]
+    },
+    "kvkk": {
+      "metadata": "KVKK",
+      "eyebrow": "Legal",
+      "title": "The KVKK notice should be prepared around the real operating process.",
+      "paragraphs": [
+        "Because Second Opinion focuses on health data, it should be handled under sensitive personal data principles. This prototype does not publish legal text."
+      ]
+    },
+    "pricing": {
+      "metadata": "Pricing",
+      "eyebrow": "Pricing",
+      "title": "Pricing will be finalized with the real operational model.",
+      "paragraphs": [
+        "This prototype does not publish a payment model or price amount. The system can support payment before submission, payment after physician acceptance, or authorization-capture models."
+      ]
+    },
+    "privacy": {
+      "metadata": "Privacy Policy",
+      "eyebrow": "Legal",
+      "title": "The privacy policy should be finalized with legal review before production.",
+      "paragraphs": [
+        "This page is placeholder guidance, not a real legal policy. Data processing, retention, sharing and user rights should be defined clearly before launch."
+      ]
+    },
+    "terms": {
+      "metadata": "Terms of Use",
+      "eyebrow": "Legal",
+      "title": "Terms of use will be finalized with the production scope.",
+      "paragraphs": [
+        "The real terms should clearly state that the service is not emergency healthcare, define the second opinion scope and explain report delivery conditions."
+      ]
+    }
+  }
+}

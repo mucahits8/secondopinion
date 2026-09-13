@@ -1,0 +1,138 @@
+{
+  "brand": {
+    "name": "Second Opinion",
+    "tagline": "Daha fazla netlik. Daha sağlıklı kararlar.",
+    "homeAria": "Second Opinion ana sayfa"
+  },
+  "metadata": {
+    "title": "Second Opinion",
+    "template": "{title} | Second Opinion",
+    "description": "Tıbbi görüntülemeleriniz için alanında uzman hekimlerden güvenli ikinci görüş alın."
+  },
+  "languages": {
+    "label": "Dil",
+    "tr": "Türkçe",
+    "en": "English",
+    "es": "Español"
+  },
+  "actions": {
+    "getSecondOpinion": "İkinci Görüş Al",
+    "howItWorks": "Nasıl Çalışır?",
+    "reviewExperts": "Uzmanları İncele",
+    "viewProfile": "Profili Gör",
+    "read": "Oku",
+    "readArticle": "Yazıyı oku",
+    "continue": "Devam Et",
+    "continueReading": "Devam et",
+    "back": "Geri",
+    "details": "Detay",
+    "inspect": "İncele",
+    "viewCase": "Vakayı Gör",
+    "newApplication": "Yeni Başvuru",
+    "completeDraft": "Taslağı Tamamla",
+    "chooseFiles": "Dosyaları Seç"
+  },
+  "requirements": {
+    "required": "Zorunlu",
+    "optional": "Opsiyonel"
+  },
+  "labels": {
+    "estimatedReview": "Tahmini değerlendirme",
+    "estimatedReport": "Tahmini rapor süreci",
+    "documents": "Belgeler",
+    "expert": "Uzman",
+    "status": "Durum",
+    "study": "Çalışma",
+    "result": "Sonuç",
+    "size": "Boyut"
+  },
+  "units": {
+    "document": "{count, plural, one {# belge} other {# belge}}",
+    "file": "{count, plural, one {# dosya seçildi} other {# dosya seçildi}}",
+    "minuteRead": "{minutes} dk"
+  },
+  "statuses": {
+    "imagesReceived": "Görüntüler alındı",
+    "expertAssigned": "Uzman atandı",
+    "underReview": "Değerlendiriliyor",
+    "reportPreparing": "Rapor hazırlanıyor",
+    "completed": "Tamamlandı",
+    "readyForExpert": "Uzman değerlendirmesi için hazır",
+    "online": "Çevrimiçi"
+  },
+  "demo": {
+    "finalVersion": "Final v1",
+    "pdf": "PDF",
+    "applicationId": "SO-2026-00184",
+    "patientFirstName": "Ahmet"
+  },
+  "infoPages": {
+    "about": {
+      "metadata": "Hakkımızda",
+      "eyebrow": "Kurumsal",
+      "title": "Second Opinion, güvenli ikinci görüş deneyimi için tasarlanıyor.",
+      "paragraphs": [
+        "Platform; hasta, operasyon ekibi ve uzman hekim arasındaki görüntüleme odaklı ikinci görüş sürecini sade ve kontrollü hale getirmeyi amaçlar.",
+        "Bu prototip gerçek kurum, sertifika, başarı oranı veya hasta sayısı iddiası içermez."
+      ]
+    },
+    "contact": {
+      "metadata": "İletişim",
+      "eyebrow": "İletişim",
+      "title": "Vaka ve destek iletişimi platform içinde tutulur.",
+      "paragraphs": [
+        "Gerçek hizmette hasta iletişiminin kişisel kanallara dağılmaması, vaka bazlı kayıt altında ilerlemesi hedeflenir.",
+        "Bu sayfa canlı iletişim formu bağlanmadan önce güvenli iletişim yaklaşımını göstermek için hazırlanmıştır."
+      ]
+    },
+    "cookies": {
+      "metadata": "Çerez Politikası",
+      "eyebrow": "Yasal",
+      "title": "Çerez politikası gerçek analitik ve güvenlik araçlarına göre yazılmalıdır.",
+      "paragraphs": [
+        "Bu prototipte gerçek çerez envanteri yayınlanmaz. Üretim öncesi kullanılan araçlara göre şeffaf bir politika hazırlanmalıdır."
+      ]
+    },
+    "help": {
+      "metadata": "Yardım Merkezi",
+      "eyebrow": "Destek",
+      "title": "Yükleme, başvuru ve rapor teslimi için sade destek.",
+      "paragraphs": [
+        "Yardım merkezi; DICOM dosyası bulma, ZIP yükleme, ek belge ekleme ve rapora erişim gibi pratik konuları açıklamak için kullanılacaktır.",
+        "Teknik hata ile klinik vaka durumu birbirinden ayrı ele alınacak şekilde tasarlanır."
+      ]
+    },
+    "kvkk": {
+      "metadata": "KVKK",
+      "eyebrow": "Yasal",
+      "title": "KVKK aydınlatma metni gerçek süreçlere göre hazırlanmalıdır.",
+      "paragraphs": [
+        "Second Opinion sağlık verisi odağı nedeniyle özel nitelikli kişisel veri prensipleriyle ele alınmalıdır. Bu prototip hukuki metin yayınlamaz."
+      ]
+    },
+    "pricing": {
+      "metadata": "Fiyatlandırma",
+      "eyebrow": "Fiyatlandırma",
+      "title": "Fiyat bilgisi gerçek operasyon kararıyla netleşir.",
+      "paragraphs": [
+        "Bu prototipte ödeme modeli veya ücret tutarı yayınlanmaz. Sistem, submit öncesi ödeme, doktor kabulü sonrası ödeme veya authorization-capture modeli desteklenecek şekilde tasarlanabilir."
+      ]
+    },
+    "privacy": {
+      "metadata": "Gizlilik Politikası",
+      "eyebrow": "Yasal",
+      "title": "Gizlilik metni üretim öncesi hukuk ekibiyle tamamlanmalıdır.",
+      "paragraphs": [
+        "Bu sayfa gerçek hukuki politika yerine yer tutucu açıklamadır. Yayına alınmadan önce veri işleme, saklama, paylaşım ve kullanıcı hakları net metinlerle tanımlanmalıdır."
+      ]
+    },
+    "terms": {
+      "metadata": "Kullanım Şartları",
+      "eyebrow": "Yasal",
+      "title": "Kullanım şartları üretim kapsamıyla netleşecektir.",
+      "paragraphs": [
+        "Hizmetin acil sağlık hizmeti olmadığı, ikinci görüş kapsamı ve rapor teslim koşulları gerçek kullanım şartlarında açıkça belirtilmelidir."
+      ]
+    }
+  }
+}

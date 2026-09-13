@@ -1,46 +1,24 @@
-import { Bone, Brain, CircleDot, HeartPulse, Network, ScanLine, ShieldCheck, Stethoscope } from "lucide-react";
+import { Bone, Brain, CircleDot, HeartPulse, Network, ScanLine, ShieldCheck, Stethoscope, type LucideIcon } from "lucide-react";
 
-export const specialties = [
-  {
-    title: "Beyin ve Omurga",
-    description: "Beyin MR, omurga MR, baş-boyun ve sinir sistemi görüntülemeleri.",
-    icon: Brain,
-    image: "/specialties/specialty-brain.png",
-  },
-  {
-    title: "Kas-iskelet",
-    description: "Eklem, kemik, yumuşak doku, spor yaralanmaları ve omurga.",
-    icon: Bone,
-    image: "/specialties/specialty-ortho.png",
-  },
-  {
-    title: "Meme",
-    description: "Mamografi, meme MR ve takip amaçlı görüntülemeler.",
-    icon: CircleDot,
-  },
-  {
-    title: "Göğüs",
-    description: "Göğüs BT, akciğer nodül takibi ve toraks incelemeleri.",
-    icon: HeartPulse,
-  },
-  {
-    title: "Abdomen",
-    description: "Karaciğer, pankreas, böbrek ve batın görüntülemeleri.",
-    icon: Stethoscope,
-  },
-  {
-    title: "Onkolojik Görüntüleme",
-    description: "PET/CT, takip incelemeleri ve tedavi yanıtı değerlendirmeleri.",
-    icon: Network,
-  },
-  {
-    title: "Vaskuler",
-    description: "BT anjiyografi, MR anjiyografi ve damar görüntülemeleri.",
-    icon: ScanLine,
-  },
-  {
-    title: "Güvenli Süreç",
-    description: "Yetkilendirilmiş erişim ve vaka bazlı kontrollü paylaşım.",
-    icon: ShieldCheck,
-  },
-];
+export type SpecialtyKey =
+  | "brain-spine"
+  | "musculoskeletal"
+  | "breast"
+  | "chest"
+  | "abdomen"
+  | "oncology"
+  | "vascular"
+  | "secure-process";
+
+export const specialtyAssets: Record<SpecialtyKey, { icon: LucideIcon; image?: string }> = {
+  "brain-spine": { icon: Brain, image: "/specialties/specialty-brain.png" },
+  musculoskeletal: { icon: Bone, image: "/specialties/specialty-ortho.png" },
+  breast: { icon: CircleDot },
+  chest: { icon: HeartPulse },
+  abdomen: { icon: Stethoscope },
+  oncology: { icon: Network },
+  vascular: { icon: ScanLine },
+  "secure-process": { icon: ShieldCheck },
+};
+
+export const specialtyKeys = Object.keys(specialtyAssets) as SpecialtyKey[];

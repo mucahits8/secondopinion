@@ -1,0 +1,17 @@
+{
+  "dashboard": {
+    "metadata": {
+      "title": "Hasta Paneli"
+    },
+    "greeting": "İyi günler, {name}.",
+    "title": "Aktif başvurunuz uzmanınız tarafından değerlendiriliyor.",
+    "text": "Sonraki adım rapor hazırlığı. Herhangi bir ek bilgi gerekirse bu ekrandan bildirim alırsınız.",
+    "facts": {
+      "expected": "Tahmini sonuç",
+      "expert": "Uzman",
+      "reviewed": "İncelenen",
+      "documents": "Belgeler"
+    },
+    "patientQuestion": "Hastanın sorusu"
+  }
+}

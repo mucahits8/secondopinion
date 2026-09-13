@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "title": "Nuestros Expertos",
+    "description": "Perfiles demostrativos de expertos de Second Opinion y áreas de enfoque en imagen médica."
+  },
+  "page": {
+    "eyebrow": "Equipo experto",
+    "title": "Convierta la autoridad clínica en una experiencia de selección clara y serena.",
+    "text": "Los perfiles de este prototipo son demostrativos. No se utilizan instituciones reales, cifras de publicaciones, número de pacientes ni afirmaciones de certificación."
+  },
+  "profile": {
+    "fallbackTitle": "Experto",
+    "cta": "Solicitar Opinión con Este Experto",
+    "cards": {
+      "expertise": "Especialidad",
+      "education": "Formación",
+      "modalities": "Estudios que revisa"
+    }
+  },
+  "items": {
+    "mehmet-kaya": {
+      "name": "Mehmet Kaya",
+      "title": "Prof. Dr.",
+      "specialty": "Neurorradiología",
+      "subspecialty": "Imagen cerebral y de columna",
+      "intro": "Perfil demostrativo de experto con experiencia académica en imagen cerebral, de columna y cabeza-cuello.",
+      "experience": "Experiencia clínica y académica de revisión",
+      "education": ["Formación de especialidad en radiología", "Trabajo académico enfocado en neurorradiología"],
+      "interests": ["RM cerebral", "RM de columna", "Seguimiento tumoral", "Imagen vascular"],
+      "languages": ["Turco", "Inglés"],
+      "modalities": ["RM", "TC", "Angiografía"],
+      "reviewTime": "Se confirma tras la aprobación operativa"
+    },
+    "ayse-demir": {
+      "name": "Ayşe Demir",
+      "title": "Prof. Dr.",
+      "specialty": "Radiología Musculoesquelética",
+      "subspecialty": "Articulaciones, lesiones deportivas y columna",
+      "intro": "Perfil demostrativo de médica especializada en imagen musculoesquelética.",
+      "experience": "Experiencia en imagen musculoesquelética",
+      "education": ["Formación de especialidad en radiología", "Programas de imagen musculoesquelética"],
+      "interests": ["RM de rodilla", "RM de hombro", "Lesiones deportivas", "Tejido blando"],
+      "languages": ["Turco", "Inglés"],
+      "modalities": ["RM", "TC", "Radiografía"],
+      "reviewTime": "Se confirma tras la aprobación operativa"
+    },
+    "selin-aras": {
+      "name": "Selin Aras",
+      "title": "Prof. Asoc. Dr.",
+      "specialty": "Imagen Mamaria",
+      "subspecialty": "Mamografía, RM mamaria y ecografía",
+      "intro": "Perfil demostrativo en imagen mamaria y radiología intervencionista.",
+      "experience": "Experiencia en imagen mamaria",
+      "education": ["Formación de especialidad en radiología", "Formación enfocada en imagen mamaria"],
+      "interests": ["Mamografía", "RM mamaria", "Hallazgos de cribado", "Estudios de seguimiento"],
+      "languages": ["Turco", "Inglés"],
+      "modalities": ["Mamografía", "RM", "Ecografía"],
+      "reviewTime": "Se confirma tras la aprobación operativa"
+    },
+    "emre-sahin": {
+      "name": "Emre Şahin",
+      "title": "Prof. Asoc. Dr.",
+      "specialty": "Radiología Torácica",
+      "subspecialty": "TC de tórax y seguimiento oncológico",
+      "intro": "Perfil demostrativo de experto en imagen torácica y estudios de seguimiento.",
+      "experience": "Experiencia en imagen torácica",
+      "education": ["Formación de especialidad en radiología", "Programas clínicos de imagen torácica"],
+      "interests": ["TC de tórax", "Seguimiento de nódulos", "Imagen oncológica", "Correlación PET/TC"],
+      "languages": ["Turco", "Inglés"],
+      "modalities": ["TC", "PET/TC", "Radiografía"],
+      "reviewTime": "Se confirma tras la aprobación operativa"
+    }
+  }
+}

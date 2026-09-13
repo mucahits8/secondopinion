@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "cases": "Mis Casos",
+    "new": "Nueva Solicitud",
+    "detail": "Detalles del Caso",
+    "images": "Imágenes",
+    "result": "Resultado"
+  },
+  "demoCase": {
+    "patientSummary": "47 años",
+    "study": "RM cerebral",
+    "studyDate": "3 de septiembre de 2026",
+    "specialist": "Prof. Dr. Mehmet Kaya",
+    "specialty": "Neurorradiología",
+    "expectedResult": "Se confirma tras la aprobación operativa",
+    "documents": ["Radiology Report.pdf", "Previous MRI Report.pdf"],
+    "patientQuestion": "Quiero entender si el hallazgo descrito en el primer informe ha cambiado respecto al estudio anterior.",
+    "clinicalCards": [
+      { "title": "Motivo principal", "text": "Cefalea y estudio de seguimiento" },
+      { "title": "Diagnóstico conocido", "text": "Información demo" },
+      { "title": "Tratamiento actual", "text": "Información demo" },
+      { "title": "Pregunta del paciente", "text": "Quiero entender si el hallazgo descrito en el primer informe ha cambiado respecto al estudio anterior." }
+    ]
+  },
+  "list": {
+    "eyebrow": "Mis Casos",
+    "title": "Sus solicitudes de segunda opinión"
+  },
+  "detail": {
+    "imagesCta": "Ver Imágenes",
+    "reportCta": "Vista Previa del Informe",
+    "clinicalInfo": "Información clínica",
+    "summary": "Resumen del caso",
+    "expectedResult": "Resultado estimado: {value}",
+    "extraInfo": "Si se necesita más información, se solicitará aquí."
+  },
+  "images": {
+    "title": "Imágenes médicas",
+    "viewerAlt": "Visor demo anónimo de RM cerebral",
+    "metrics": {
+      "study": "Study",
+      "series": "Series",
+      "images": "Images",
+      "size": "Tamaño"
+    }
+  },
+  "wizard": {
+    "progress": ["Servicio", "Información Clínica", "Imágenes", "Documentos", "Experto", "Confirmar"],
+    "newCase": "Nuevo caso",
+    "forWhom": {
+      "label": "¿Para quién es?",
+      "self": "Para mí",
+      "child": "Para mi hijo/a",
+      "relative": "Para un familiar"
+    },
+    "modality": {
+      "label": "Tipo de imagen",
+      "options": [
+        { "id": "mri", "title": "MR / MRI", "text": "Resonancia magnética" },
+        { "id": "ct", "title": "BT / CT", "text": "Tomografía computarizada" },
+        { "id": "petct", "title": "PET/CT", "text": "Seguimiento oncológico e imagen metabólica" },
+        { "id": "mammography", "title": "Mamografía", "text": "Imagen mamaria" },
+        { "id": "xray", "title": "Radiografía", "text": "Radiografía simple" },
+        { "id": "other", "title": "Otro", "text": "Use esta opción si no está seguro" }
+      ]
+    },
+    "regions": {
+      "label": "Región a revisar",
+      "options": [
+        { "id": "brain", "label": "Cerebro" },
+        { "id": "spine", "label": "Columna" },
+        { "id": "chest", "label": "Tórax" },
+        { "id": "abdomen", "label": "Abdomen" },
+        { "id": "breast", "label": "Mama" },
+        { "id": "msk", "label": "Musculoesquelética" }
+      ]
+    },
+    "panels": {
+      "service": {
+        "title": "¿Qué estudio de imagen desea revisar?",
+        "text": "Elija el tipo de imagen y para quién se realiza la solicitud. El sistema valida los datos técnicos después de cargar DICOM."
+      },
+      "clinical": {
+        "title": "¿Qué pregunta específica debe responder el experto?",
+        "text": "La pregunta principal es obligatoria. Otros datos clínicos pueden añadirse según sea necesario sin convertirlo en un formulario largo.",
+        "questionLabel": "Pregunta clínica principal",
+        "questionPlaceholder": "Por ejemplo: Quiero saber si el hallazgo descrito en el primer informe cambió respecto a las imágenes previas.",
+        "complaintLabel": "Motivo principal",
+        "complaintPlaceholder": "Opcional",
+        "notesLabel": "Notas clínicas adicionales",
+        "notesPlaceholder": "Cirugía previa, tratamiento, diagnóstico conocido...",
+        "removeNote": "Eliminar nota",
+        "addNote": "Añadir nota"
+      },
+      "images": {
+        "title": "Suba sus imágenes médicas.",
+        "text": "Este paso es obligatorio. En el prototipo, los archivos no se envían al servidor; se muestran en la interfaz.",
+        "label": "Archivos DICOM / ZIP",
+        "hint": "Carpetas, ZIP o archivos DICOM",
+        "selected": "{count, plural, one {# archivo seleccionado} other {# archivos seleccionados}}"
+      },
+      "documents": {
+        "title": "Añada documentos de apoyo.",
+        "text": "Este paso es opcional. Puede añadir informes radiológicos, epicrisis, patología o resultados de laboratorio cuando sea útil.",
+        "removeRow": "Eliminar fila de documento",
+        "add": "Añadir documento",
+        "categories": [
+          { "id": "radiology-report", "label": "Informe radiológico" },
+          { "id": "discharge", "label": "Epicrisis" },
+          { "id": "pathology", "label": "Patología" },
+          { "id": "lab", "label": "Laboratorio" },
+          { "id": "operation", "label": "Informe quirúrgico" },
+          { "id": "other", "label": "Otro" }
+        ]
+      },
+      "expert": {
+        "title": "¿Cómo desea elegir al experto?",
+        "text": "En el MVP no hay asignación automática; la selección puede gestionarse manualmente por operaciones de la plataforma.",
+        "label": "Selección de experto",
+        "self": { "label": "Quiero elegir al experto", "text": "Continúe revisando los perfiles médicos." },
+        "platform": { "label": "Dejar que Second Opinion elija el experto adecuado", "text": "El equipo operativo dirige el caso según el área de imagen." }
+      },
+      "summary": {
+        "title": "Resumen de la solicitud",
+        "text": "Revise los campos obligatorios y la información opcional antes de enviar. El pago y el envío real no forman parte de este prototipo.",
+        "emptyQuestion": "Aún no escrito",
+        "requiredImage": "Obligatorio",
+        "rows": {
+          "forWhom": "Para quién",
+          "modality": "Imagen",
+          "region": "Región",
+          "question": "Pregunta clínica",
+          "images": "Archivos de imagen",
+          "documents": "Documentos de apoyo",
+          "expert": "Selección de experto"
+        }
+      }
+    },
+    "notes": [
+      { "title": "¿Para quién?", "text": "Base para el flujo obligatorio de representación o consentimiento" },
+      { "title": "Pregunta clínica", "text": "El tema principal que debe responder el experto" },
+      { "title": "Selección de experto", "text": "Elíjalo usted o déjelo en nuestras manos" },
+      { "title": "DICOM", "text": "Se requiere al menos un archivo de imagen para la solicitud" }
+    ]
+  }
+}

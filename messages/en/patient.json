@@ -1,0 +1,17 @@
+{
+  "dashboard": {
+    "metadata": {
+      "title": "Patient Dashboard"
+    },
+    "greeting": "Good day, {name}.",
+    "title": "Your active request is being reviewed by your expert.",
+    "text": "The next step is report preparation. If more information is needed, you will be notified here.",
+    "facts": {
+      "expected": "Estimated result",
+      "expert": "Expert",
+      "reviewed": "Reviewed",
+      "documents": "Documents"
+    },
+    "patientQuestion": "Patient question"
+  }
+}

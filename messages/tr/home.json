@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "Tıbbi görüntülemeler için ikinci görüş",
+    "description": "MR, BT, PET/CT ve diğer tıbbi görüntülemeleriniz için güvenli ikinci uzman görüşü başlatın."
+  },
+  "hero": {
+    "eyebrow": "Uzman görüşü, daha güvenli kararlar",
+    "title": "Tıbbi görüntülemeleriniz için uzman bir görüş daha.",
+    "description": "MR, BT, PET/CT ve diğer tıbbi görüntülemelerinizi güvenle yükleyin, alanında uzman hekimlerden çevrimiçi ikinci bir görüş alın.",
+    "trustItems": [
+      { "title": "Uzman hekimler", "text": "Alanında deneyimli", "href": "/doctors" },
+      { "title": "Güvenli görüntü transferi", "text": "Korunan sağlık verileri", "href": "/privacy" },
+      { "title": "Online rapor teslimi", "text": "Hızlı ve güvenilir", "href": "/app/cases/SO-2026-00184/result" }
+    ]
+  },
+  "quickLinks": [
+    { "label": "DICOM odaklı yükleme", "href": "/app/cases/new" },
+    { "label": "Vaka bazlı süreç takibi", "href": "/app" },
+    { "label": "Yapılandırılmış uzman raporu", "href": "/app/cases/SO-2026-00184/result" },
+    { "label": "Kontrollü veri paylaşımı", "href": "/privacy" }
+  ],
+  "how": {
+    "title": "Nasıl Çalışır?",
+    "text": "Dört basit adımda uzman görüşüne ulaşın.",
+    "action": "Tüm süreci detaylı öğrenin",
+    "steps": [
+      { "title": "1. Görüntülerinizi Yükleyin", "text": "MR, BT, PET/CT ve diğer görüntüleme dosyalarınızı güvenle yükleyin.", "href": "/app/cases/new" },
+      { "title": "2. Uzmanınızı Seçin", "text": "İhtiyacınıza uygun uzmanı görüntüleyin veya seçimi bize bırakın.", "href": "/doctors" },
+      { "title": "3. Uzman Değerlendirsin", "text": "Uzman hekiminiz görüntülerinizi ve klinik bilgilerinizi incelesin.", "href": "/how-it-works" },
+      { "title": "4. Second Opinion'inizi Alın", "text": "Uzman raporunu güvenli hesabınızdan görüntüleyin.", "href": "/app/cases/SO-2026-00184/result" }
+    ]
+  },
+  "processPage": {
+    "metadata": "Nasıl Çalışır",
+    "eyebrow": "Süreç",
+    "title": "Karmaşık tıbbi görüntü süreci, hasta için dört net adıma iner.",
+    "text": "Second Opinion hastanın önüne teknik terimler yığma yerine, başvuruyu tamamlaması için yalnızca gerekli kararları gösterir.",
+    "uploadTitle": "Yükleme tamamlandı demeden önce sistem kontrol eder.",
+    "uploadText": "Prototip, arka plandaki ingestion akışını hasta için anlaşılır durumlara indirger: yükleme, doğrulama, çalışma algılama ve uzman incelemesine hazır hale getirme.",
+    "journeyTitle": "Başvurudan rapora kadar görünür yolculuk",
+    "deliveryTitle": "Rapor güvenli hesapta teslim edilir.",
+    "deliveryText": "Final rapor hasta ile paylaşıldığında, deneyim kontrollü ve sakin kalır. E-posta eki yerine güvenli hesap erişimi temel alınır."
+  },
+  "why": {
+    "eyebrow": "Neden Second Opinion?",
+    "title": "Sağlığınızla ilgili önemli bir kararda, bir görüş daha fark yaratabilir.",
+    "text": "Platform hasta için basit görünür; arka planda vaka yönetimi, görüntü hazırlığı, uzman ataması, rapor versiyonlama ve audit mantığı birlikte çalışır.",
+    "items": [
+      { "title": "Uzmanlık", "text": "Vakalar ilgili alanda deneyimli uzmanlara yönlendirilir.", "href": "/specialties" },
+      { "title": "Erişim", "text": "Coğrafi sınırların ötesinde uzman perspektifine ulaşılabilir.", "href": "/doctors" },
+      { "title": "Netlik", "text": "Mevcut görüntüleriniz farklı bir uzman bakışıyla tekrar değerlendirilir.", "href": "/how-it-works" },
+      { "title": "Süreç", "text": "Başvurunuzun hangi aşamada olduğunu her zaman görebilirsiniz.", "href": "/app" }
+    ]
+  },
+  "experts": {
+    "title": "Uzmanlarımız",
+    "text": "Alanında uzman, deneyimli hekim kadromuzla yanınızdayız.",
+    "action": "Tüm uzmanlarımızı görüntüleyin"
+  },
+  "specialties": {
+    "title": "Uzmanlık Alanları",
+    "text": "İhtiyacınıza uygun uzmanlık alanında ikinci bir görüş alın.",
+    "action": "Tüm uzmanlık alanlarını görüntüleyin"
+  },
+  "upload": {
+    "eyebrow": "Görüntü hazırlama",
+    "title": "DICOM yükleme deneyimi hasta için sade, sistem için kontrollü.",
+    "text": "Hasta yalnızca dosyalarını seçer. Sistem arka planda dosya yapısını, çalışma bilgisini ve viewer hazırlığını adım adım kontrol eder.",
+    "imageAlt": "Radyoloji çalışma ortamı"
+  },
+  "journey": {
+    "eyebrow": "Vaka yolculuğu",
+    "title": "Hasta süreci teknik durumlar yerine anlaşılır adımlarla takip eder.",
+    "text": "Karmaşık klinik ve teknik süreçler, hasta ekranında yalnızca bir sonraki aksiyonu gösteren sade bir yolculuğa dönüşür."
+  },
+  "report": {
+    "eyebrow": "Uzman raporu",
+    "title": "Serbest metin değil, yapılandırılmış ve okunabilir uzman görüşü.",
+    "text": "Final rapor klinik bilgi, bulgular, değerlendirme, hastanın sorusuna yanıt, öneriler ve limitasyonlar gibi bölümlerle sunulur. Bu prototip gerçek tanı metni içermez."
+  },
+  "security": {
+    "title": "Sağlık verileriniz hassastır. Biz de öyle davranıyoruz.",
+    "text": "Gerçek altyapı tamamlandıkça teknik ve hukuki ifadeler netleştirilecek; bu prototipte abartılı sertifika veya garanti iddiaları kullanılmadı.",
+    "items": [
+      { "title": "Güvenli bağlantı", "text": "Hassas veri aktarımı için güvenli kanal varsayımı." },
+      { "title": "Yetkilendirilmiş erişim", "text": "Vaka bilgileri yalnızca gerekli rollerle eşleşir." },
+      { "title": "İşlem kayıtları", "text": "Kritik aksiyonlar audit mantığına uygun tasarlanır." },
+      { "title": "Kontrollü paylaşım", "text": "Rapor hesaptan erişilir; e-posta eki olarak dağıtılmaz." }
+    ]
+  },
+  "value": {
+    "eyebrow": "Hasta için değer",
+    "title": "Daha fazla bilgi değil. Daha fazla netlik.",
+    "text": "İkinci görüş, mevcut tıbbi görüntüleme ve klinik bilgileriniz üzerinden başka bir uzman perspektifi almanızı sağlar; sonuç garantisi vermez."
+  },
+  "faq": [
+    { "question": "Second Opinion nedir?", "answer": "Mevcut tıbbi görüntülemelerinizin ve klinik bilgilerinizin ilgili alanda deneyimli bir uzman tarafından tekrar değerlendirilmesidir." },
+    { "question": "Hangi görüntüleme türlerini yükleyebilirim?", "answer": "MR, BT/CT, PET/CT, SPECT/CT, röntgen, mamografi, anjiyografi ve benzeri görüntüleme dosyaları için başvuru oluşturabilirsiniz." },
+    { "question": "DICOM dosyası nedir?", "answer": "DICOM, tıbbi görüntüleme cihazlarının ürettiği standart dosya formatıdır. Sistem bu dosyaları hasta için sade bir yükleme deneyimine indirger." },
+    { "question": "Uzmanımı kendim seçebilir miyim?", "answer": "Evet. Dilerseniz doktor profillerini inceleyerek uzman seçebilir, dilerseniz eşleştirmeyi Second Opinion operasyon ekibine bırakabilirsiniz." },
+    { "question": "Değerlendirme ne kadar sürer?", "answer": "Demo içerikte kesin süre vaadi verilmez. Gerçek hizmette süre, uzman uygunluğu ve vakanın kapsamıyla netleşir." },
+    { "question": "Raporumu nasıl teslim alırım?", "answer": "Raporunuz hazır olduğunda güvenli hesabınızdan görüntülenir ve PDF olarak indirilebilir. Rapor e-posta eki olarak gönderilmez." }
+  ],
+  "finalCta": {
+    "eyebrow": "Başvuruyu başlat",
+    "title": "İkinci görüş için gerekenleri adım adım tamamlayın.",
+    "text": "Zorunlu alanlar açıkça belirtilir; ek klinik notlar ve belgeler ihtiyaç oldukça sonradan eklenebilir.",
+    "items": [
+      { "title": "Zorunlu: görüntüleme", "text": "DICOM veya ZIP yükleme adımında alınır.", "href": "/app/cases/new" },
+      { "title": "Zorunlu: klinik soru", "text": "Uzmanın özellikle yanıtlaması istenir.", "href": "/app/cases/new" },
+      { "title": "Opsiyonel: ek belgeler", "text": "Rapor, epikriz veya laboratuvar sonucu eklenebilir.", "href": "/app/cases/new" }
+    ]
+  },
+  "workspace": {
+    "sidebar": ["Hastalarım", "Görüntüler", "Raporlar", "Mesajlar", "Hesabım"],
+    "dicomAlt": "Anonim demonstrasyon DICOM görüntüleme arayüzü",
+    "doctorAlt": "Demo uzman doktor portresi",
+    "doctorName": "Prof. Dr. Mehmet Kaya",
+    "doctorSpecialty": "Nöroradyoloji Uzmanı",
+    "reportTitle": "Uzman Raporu",
+    "reportSections": ["Klinik Bilgi", "Radyolojik Bulgular", "Değerlendirme", "Öneriler"],
+    "demoBadge": "Anonim demo görüntüleme"
+  }
+}

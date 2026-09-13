@@ -1,0 +1,71 @@
+{
+  "public": {
+    "howItWorks": "Cómo Funciona",
+    "doctors": "Nuestros Expertos",
+    "specialties": "Especialidades",
+    "blog": "Blog",
+    "login": "Iniciar Sesión"
+  },
+  "mobile": {
+    "open": "Abrir menú",
+    "close": "Cerrar menú"
+  },
+  "footer": {
+    "columns": {
+      "corporate": {
+        "title": "Institucional",
+        "links": {
+          "about": "Acerca de",
+          "team": "Equipo",
+          "career": "Carreras",
+          "contact": "Contacto"
+        }
+      },
+      "services": {
+        "title": "Servicios",
+        "links": {
+          "secondOpinion": "Solicitar Segunda Opinión",
+          "specialties": "Especialidades",
+          "doctors": "Nuestros Expertos",
+          "pricing": "Precios"
+        }
+      },
+      "support": {
+        "title": "Soporte",
+        "links": {
+          "help": "Centro de Ayuda",
+          "faq": "Preguntas Frecuentes",
+          "technical": "Soporte Técnico",
+          "contact": "Contáctenos"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "links": {
+          "kvkk": "Aviso KVKK",
+          "privacy": "Política de Privacidad",
+          "terms": "Condiciones de Uso",
+          "cookies": "Política de Cookies"
+        }
+      }
+    },
+    "copyright": "© 2026 Second Opinion.",
+    "rights": "Todos los derechos reservados.",
+    "social": {
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "youtube": "YouTube"
+    }
+  },
+  "app": {
+    "notifications": "Notificaciones",
+    "profileName": "Ahmet",
+    "sidebar": {
+      "dashboard": "Resumen",
+      "cases": "Mis Casos",
+      "documents": "Mis Documentos",
+      "messages": "Mensajes",
+      "profile": "Perfil"
+    }
+  }
+}

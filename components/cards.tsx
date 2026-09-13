@@ -1,7 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { ArrowRight, Clock, LucideIcon } from "lucide-react";
-import type { Doctor } from "@/data/doctors";
+import { Link } from "@/i18n/navigation";
+import type { LocalizedDoctor } from "@/data/doctors";
 
 export function SectionHeader({
   eyebrow,
@@ -58,7 +59,9 @@ export function LinkedTrustItem({ icon: Icon, title, text, href }: { icon: Lucid
   );
 }
 
-export function DoctorCard({ doctor }: { doctor: Doctor }) {
+export function DoctorCard({ doctor }: { doctor: LocalizedDoctor }) {
+  const t = useTranslations();
+
   return (
     <article className="group surface-card rounded-[12px] p-4 transition-all duration-200 hover:-translate-y-0.5 hover:border-[rgba(20,111,193,0.45)] hover:shadow-[var(--shadow-soft)]">
       <div className="flex gap-5">
@@ -75,10 +78,10 @@ export function DoctorCard({ doctor }: { doctor: Doctor }) {
       </div>
       <div className="mt-4 flex items-center gap-2 text-sm text-[var(--text-secondary)]">
         <Clock size={16} className="text-[var(--blue)]" />
-        Tahmini rapor süreci: {doctor.reviewTime}
+        {t("common.labels.estimatedReport")}: {doctor.reviewTime}
       </div>
       <Link href={`/doctors/${doctor.slug}`} className="btn-secondary arrow-nudge mt-5 h-10 min-h-10 px-5">
-        Profili Gör <ArrowRight size={16} />
+        {t("common.actions.viewProfile")} <ArrowRight size={16} />
       </Link>
     </article>
   );

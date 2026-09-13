@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "cases": "Vakalarım",
+    "new": "Yeni Başvuru",
+    "detail": "Vaka Detayı",
+    "images": "Görüntüler",
+    "result": "Sonuç"
+  },
+  "demoCase": {
+    "patientSummary": "47 yaş",
+    "study": "Beyin MR",
+    "studyDate": "3 Eylül 2026",
+    "specialist": "Prof. Dr. Mehmet Kaya",
+    "specialty": "Nöroradyoloji",
+    "expectedResult": "Operasyon onayı sonrası netleşir",
+    "documents": ["Radiology Report.pdf", "Previous MRI Report.pdf"],
+    "patientQuestion": "İlk raporda tarif edilen bulgunun önceki görüntülemeye göre değişip değişmediğini öğrenmek istiyorum.",
+    "clinicalCards": [
+      { "title": "Ana şikayet", "text": "Baş ağrısı ve takip görüntülemesi" },
+      { "title": "Bilinen tanı", "text": "Demo bilgi" },
+      { "title": "Mevcut tedavi", "text": "Demo bilgi" },
+      { "title": "Hasta sorusu", "text": "İlk raporda tarif edilen bulgunun önceki görüntülemeye göre değişip değişmediğini öğrenmek istiyorum." }
+    ]
+  },
+  "list": {
+    "eyebrow": "Vakalarım",
+    "title": "İkinci görüş başvurularınız"
+  },
+  "detail": {
+    "imagesCta": "Görüntüleri Gör",
+    "reportCta": "Rapor Önizleme",
+    "clinicalInfo": "Klinik bilgi",
+    "summary": "Vaka özeti",
+    "expectedResult": "Tahmini sonuç: {value}",
+    "extraInfo": "Ek bilgi gerekirse buradan bildirilir."
+  },
+  "images": {
+    "title": "Tıbbi görüntüler",
+    "viewerAlt": "Anonim beyin MR demo viewer",
+    "metrics": {
+      "study": "Study",
+      "series": "Series",
+      "images": "Images",
+      "size": "Boyut"
+    }
+  },
+  "wizard": {
+    "progress": ["Hizmet", "Klinik Bilgi", "Görüntüler", "Belgeler", "Uzman", "Onay"],
+    "newCase": "Yeni vaka",
+    "forWhom": {
+      "label": "Kimin için?",
+      "self": "Kendim",
+      "child": "Çocuğum",
+      "relative": "Yakınım"
+    },
+    "modality": {
+      "label": "Görüntüleme türü",
+      "options": [
+        { "id": "mri", "title": "MR / MRI", "text": "Manyetik rezonans görüntüleme" },
+        { "id": "ct", "title": "BT / CT", "text": "Bilgisayarlı tomografi" },
+        { "id": "petct", "title": "PET/CT", "text": "Onkolojik takip ve metabolik görüntüleme" },
+        { "id": "mammography", "title": "Mamografi", "text": "Meme görüntüleme" },
+        { "id": "xray", "title": "Röntgen", "text": "Direkt grafi" },
+        { "id": "other", "title": "Diğer", "text": "Emin değilseniz bu seçeneği kullanın" }
+      ]
+    },
+    "regions": {
+      "label": "İncelenecek bölge",
+      "options": [
+        { "id": "brain", "label": "Beyin" },
+        { "id": "spine", "label": "Omurga" },
+        { "id": "chest", "label": "Göğüs" },
+        { "id": "abdomen", "label": "Abdomen" },
+        { "id": "breast", "label": "Meme" },
+        { "id": "msk", "label": "Kas-iskelet" }
+      ]
+    },
+    "panels": {
+      "service": {
+        "title": "Hangi görüntüleme için ikinci görüş almak istiyorsunuz?",
+        "text": "Bir görüntüleme türü ve başvurunun kimin adına yapıldığını seçin. Sistem DICOM yüklendikten sonra teknik bilgiyi ayrıca doğrular."
+      },
+      "clinical": {
+        "title": "Uzmanın özellikle yanıtlamasını istediğiniz konu nedir?",
+        "text": "Asıl soru zorunlu. Diğer klinik bilgiler gerektiği kadar eklenebilir; hastaya uzun bir form hissi vermeyiz.",
+        "questionLabel": "Ana klinik soru",
+        "questionPlaceholder": "Örneğin: İlk raporda tarif edilen bulgunun önceki görüntülemeye göre değişip değişmediğini öğrenmek istiyorum.",
+        "complaintLabel": "Ana şikayet",
+        "complaintPlaceholder": "Opsiyonel",
+        "notesLabel": "Ek klinik notlar",
+        "notesPlaceholder": "Önceki ameliyat, tedavi, bilinen tanı...",
+        "removeNote": "Notu sil",
+        "addNote": "Not ekle"
+      },
+      "images": {
+        "title": "Tıbbi görüntülerinizi yükleyin.",
+        "text": "Bu adım zorunludur. Prototipte dosya sunucuya gönderilmez; seçilen dosyalar arayüzde görüntülenir.",
+        "label": "DICOM / ZIP dosyaları",
+        "hint": "Klasör, ZIP veya DICOM dosyaları",
+        "selected": "{count, plural, one {# dosya seçildi} other {# dosya seçildi}}"
+      },
+      "documents": {
+        "title": "Ek belgeleri ekleyin.",
+        "text": "Bu adım opsiyoneldir. Radyoloji raporu, epikriz, patoloji veya laboratuvar sonucu gibi belgeleri ihtiyaç oldukça ekleyebilirsiniz.",
+        "removeRow": "Belge satırını sil",
+        "add": "Belge ekle",
+        "categories": [
+          { "id": "radiology-report", "label": "Radyoloji raporu" },
+          { "id": "discharge", "label": "Epikriz" },
+          { "id": "pathology", "label": "Patoloji" },
+          { "id": "lab", "label": "Laboratuvar" },
+          { "id": "operation", "label": "Operasyon raporu" },
+          { "id": "other", "label": "Diğer" }
+        ]
+      },
+      "expert": {
+        "title": "Uzman seçimini nasıl yapmak istersiniz?",
+        "text": "MVP'de otomatik eşleştirme yoktur; seçim platform operasyonu tarafından manuel yönetilebilir.",
+        "label": "Uzman seçimi",
+        "self": { "label": "Uzmanı kendim seçmek istiyorum", "text": "Doktor profillerini inceleyerek ilerleyin." },
+        "platform": { "label": "Second Opinion uygun uzmanı seçsin", "text": "Operasyon ekibi görüntüleme alanına göre yönlendirme yapar." }
+      },
+      "summary": {
+        "title": "Başvuru özeti",
+        "text": "Göndermeden önce zorunlu alanları ve eklenebilir bilgileri kontrol edin. Ödeme ve gerçek submit entegrasyonu bu prototipte yoktur.",
+        "emptyQuestion": "Henüz yazılmadı",
+        "requiredImage": "Zorunlu",
+        "rows": {
+          "forWhom": "Kimin için",
+          "modality": "Görüntüleme",
+          "region": "Bölge",
+          "question": "Klinik soru",
+          "images": "Görüntü dosyası",
+          "documents": "Ek belgeler",
+          "expert": "Uzman seçimi"
+        }
+      }
+    },
+    "notes": [
+      { "title": "Kimin için?", "text": "Zorunlu temsil/onay akışına temel olur" },
+      { "title": "Klinik soru", "text": "Uzmanın yanıtlaması gereken ana konu" },
+      { "title": "Uzman seçimi", "text": "Kendiniz seçin veya bize bırakın" },
+      { "title": "DICOM", "text": "Başvuru için en az bir görüntü gerekir" }
+    ]
+  }
+}

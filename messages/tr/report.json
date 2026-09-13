@@ -1,0 +1,18 @@
+{
+  "preview": {
+    "eyebrow": "Second Opinion",
+    "title": "Uzman Raporu",
+    "doctor": "Prof. Dr. Mehmet Kaya",
+    "sections": ["Klinik Bilgi", "İnceleme", "Bulgular", "Değerlendirme", "Hastanın Sorusuna Yanıt", "Öneriler"]
+  },
+  "result": {
+    "title": "Second Opinion raporunuz hazır.",
+    "text": "Bu ekran final teslim deneyimini gösterir. Prototipte gerçek tanı metni veya gerçek hasta verisi bulunmaz.",
+    "summary": "Sonuç özeti",
+    "viewOpinion": "Second Opinion'i Gör",
+    "pdfInfo": "PDF Bilgisi",
+    "answerTitle": "Hastanın sorusuna yanıt",
+    "answerText": "Bu alanda doktorun hastanın özel sorusuna verdiği net yanıtın özeti yer alır. Prototipte tanı veya tedavi önerisi yazılmaz.",
+    "pdfText": "PDF indirme, gerçek rapor üretim servisi bağlandığında aktif edilecek. Bu prototipte buton rapor alanına yönlendirir ve teslim deneyimini gösterir."
+  }
+}

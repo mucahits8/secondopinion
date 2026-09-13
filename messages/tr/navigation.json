@@ -1,0 +1,71 @@
+{
+  "public": {
+    "howItWorks": "Nasıl Çalışır",
+    "doctors": "Uzmanlarımız",
+    "specialties": "Uzmanlık Alanları",
+    "blog": "Blog",
+    "login": "Giriş Yap"
+  },
+  "mobile": {
+    "open": "Menüyü aç",
+    "close": "Menüyü kapat"
+  },
+  "footer": {
+    "columns": {
+      "corporate": {
+        "title": "Kurumsal",
+        "links": {
+          "about": "Hakkımızda",
+          "team": "Ekibimiz",
+          "career": "Kariyer",
+          "contact": "İletişim"
+        }
+      },
+      "services": {
+        "title": "Hizmetler",
+        "links": {
+          "secondOpinion": "İkinci Görüş Al",
+          "specialties": "Uzmanlık Alanları",
+          "doctors": "Uzmanlarımız",
+          "pricing": "Fiyatlandırma"
+        }
+      },
+      "support": {
+        "title": "Destek",
+        "links": {
+          "help": "Yardım Merkezi",
+          "faq": "SSS",
+          "technical": "Teknik Destek",
+          "contact": "Bize Ulaşın"
+        }
+      },
+      "legal": {
+        "title": "Yasal",
+        "links": {
+          "kvkk": "KVKK Aydınlatma Metni",
+          "privacy": "Gizlilik Politikası",
+          "terms": "Kullanım Şartları",
+          "cookies": "Çerez Politikası"
+        }
+      }
+    },
+    "copyright": "© 2026 Second Opinion.",
+    "rights": "Tüm hakları saklıdır.",
+    "social": {
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "youtube": "YouTube"
+    }
+  },
+  "app": {
+    "notifications": "Bildirimler",
+    "profileName": "Ahmet",
+    "sidebar": {
+      "dashboard": "Genel Bakış",
+      "cases": "Vakalarım",
+      "documents": "Belgelerim",
+      "messages": "Mesajlar",
+      "profile": "Profil"
+    }
+  }
+}

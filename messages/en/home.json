@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "Second opinions for medical imaging",
+    "description": "Start a secure expert second opinion for MRI, CT, PET/CT and other medical imaging studies."
+  },
+  "hero": {
+    "eyebrow": "Expert review, clearer decisions",
+    "title": "One more expert view on your medical imaging.",
+    "description": "Securely upload MRI, CT, PET/CT and other imaging studies, then receive an online second opinion from physicians with relevant expertise.",
+    "trustItems": [
+      { "title": "Expert physicians", "text": "Experienced in their field", "href": "/doctors" },
+      { "title": "Secure imaging transfer", "text": "Protected health data", "href": "/privacy" },
+      { "title": "Online report delivery", "text": "Fast and dependable", "href": "/app/cases/SO-2026-00184/result" }
+    ]
+  },
+  "quickLinks": [
+    { "label": "DICOM-focused upload", "href": "/app/cases/new" },
+    { "label": "Case-based progress tracking", "href": "/app" },
+    { "label": "Structured expert report", "href": "/app/cases/SO-2026-00184/result" },
+    { "label": "Controlled data sharing", "href": "/privacy" }
+  ],
+  "how": {
+    "title": "How It Works",
+    "text": "Reach an expert opinion in four simple steps.",
+    "action": "See the full process",
+    "steps": [
+      { "title": "1. Upload Your Images", "text": "Securely upload MRI, CT, PET/CT and other imaging files.", "href": "/app/cases/new" },
+      { "title": "2. Choose Your Expert", "text": "Review the right expert for your need or let us guide the selection.", "href": "/doctors" },
+      { "title": "3. Expert Review", "text": "Your expert physician reviews your images and clinical information.", "href": "/how-it-works" },
+      { "title": "4. Receive Your Second Opinion", "text": "View the expert report inside your secure account.", "href": "/app/cases/SO-2026-00184/result" }
+    ]
+  },
+  "processPage": {
+    "metadata": "How It Works",
+    "eyebrow": "Process",
+    "title": "A complex medical imaging process becomes four clear steps for the patient.",
+    "text": "Second Opinion shows only the decisions needed to complete the request instead of placing technical language in front of the patient.",
+    "uploadTitle": "The system checks before calling the upload complete.",
+    "uploadText": "The prototype turns the background ingestion flow into understandable patient states: upload, validation, study detection and readiness for expert review.",
+    "journeyTitle": "A visible journey from application to report",
+    "deliveryTitle": "The report is delivered in the secure account.",
+    "deliveryText": "When the final report is shared with the patient, the experience stays controlled and calm. Secure account access is the baseline instead of email attachments."
+  },
+  "why": {
+    "eyebrow": "Why Second Opinion?",
+    "title": "When a health decision matters, another expert view can change the conversation.",
+    "text": "The platform feels simple for patients while case management, image preparation, expert assignment, report versioning and audit logic work behind the scenes.",
+    "items": [
+      { "title": "Expertise", "text": "Cases are directed to experts with relevant imaging experience.", "href": "/specialties" },
+      { "title": "Access", "text": "Reach expert perspective beyond geographic limits.", "href": "/doctors" },
+      { "title": "Clarity", "text": "Your existing images are reviewed again through a focused expert lens.", "href": "/how-it-works" },
+      { "title": "Progress", "text": "You can see where your application stands at every stage.", "href": "/app" }
+    ]
+  },
+  "experts": {
+    "title": "Our Experts",
+    "text": "You are supported by experienced physicians in relevant specialties.",
+    "action": "View all experts"
+  },
+  "specialties": {
+    "title": "Specialties",
+    "text": "Start a second opinion in the specialty that matches your imaging need.",
+    "action": "View all specialties"
+  },
+  "upload": {
+    "eyebrow": "Image preparation",
+    "title": "A DICOM upload experience that stays simple for patients and controlled for the system.",
+    "text": "The patient only selects files. In the background, the system checks structure, study details and viewer readiness step by step.",
+    "imageAlt": "Radiology workspace"
+  },
+  "journey": {
+    "eyebrow": "Case journey",
+    "title": "Patients follow clear steps instead of technical statuses.",
+    "text": "Complex clinical and technical processes become a simple journey that highlights the next meaningful action."
+  },
+  "report": {
+    "eyebrow": "Expert report",
+    "title": "Not free-form text: a structured, readable expert opinion.",
+    "text": "The final report is organized into clinical context, findings, impression, answer to the patient question, recommendations and limitations. This prototype contains no real diagnostic text."
+  },
+  "security": {
+    "title": "Your health data is sensitive. We treat it that way.",
+    "text": "Technical and legal wording will be finalized as the real infrastructure matures; this prototype avoids exaggerated certification or guarantee claims.",
+    "items": [
+      { "title": "Secure connection", "text": "A secure channel is assumed for sensitive data transfer." },
+      { "title": "Authorized access", "text": "Case information is matched only to necessary roles." },
+      { "title": "Audit records", "text": "Critical actions are designed around audit-friendly behavior." },
+      { "title": "Controlled sharing", "text": "Reports are accessed in the account and not distributed as email attachments." }
+    ]
+  },
+  "value": {
+    "eyebrow": "Patient value",
+    "title": "Not more information. More clarity.",
+    "text": "A second opinion lets you receive another expert perspective based on your existing imaging and clinical information; it does not guarantee an outcome."
+  },
+  "faq": [
+    { "question": "What is Second Opinion?", "answer": "It is a focused re-evaluation of your existing medical imaging and clinical information by an experienced expert in the relevant field." },
+    { "question": "Which imaging types can I upload?", "answer": "You can create a request for MRI, CT, PET/CT, SPECT/CT, X-ray, mammography, angiography and similar imaging files." },
+    { "question": "What is a DICOM file?", "answer": "DICOM is the standard file format generated by medical imaging devices. The system turns those files into a simpler upload experience for patients." },
+    { "question": "Can I choose my expert?", "answer": "Yes. You can review physician profiles and choose an expert, or leave the matching to the Second Opinion operations team." },
+    { "question": "How long does review take?", "answer": "Demo content does not promise a fixed turnaround. In the real service, timing depends on expert availability and case scope." },
+    { "question": "How do I receive my report?", "answer": "When ready, your report is available in your secure account and can be downloaded as a PDF. It is not sent as an email attachment." }
+  ],
+  "finalCta": {
+    "eyebrow": "Start the application",
+    "title": "Complete the requirements for a second opinion step by step.",
+    "text": "Required fields are clearly marked; additional clinical notes and documents can be added later when needed.",
+    "items": [
+      { "title": "Required: imaging", "text": "Collected during the DICOM or ZIP upload step.", "href": "/app/cases/new" },
+      { "title": "Required: clinical question", "text": "The specific question the expert is asked to answer.", "href": "/app/cases/new" },
+      { "title": "Optional: supporting documents", "text": "Reports, discharge notes or lab results can be added.", "href": "/app/cases/new" }
+    ]
+  },
+  "workspace": {
+    "sidebar": ["My Patients", "Images", "Reports", "Messages", "Account"],
+    "dicomAlt": "Anonymous demonstration DICOM viewer interface",
+    "doctorAlt": "Demo expert physician portrait",
+    "doctorName": "Prof. Dr. Mehmet Kaya",
+    "doctorSpecialty": "Neuroradiology Specialist",
+    "reportTitle": "Expert Report",
+    "reportSections": ["Clinical Information", "Radiology Findings", "Assessment", "Recommendations"],
+    "demoBadge": "Anonymous demo imaging"
+  }
+}

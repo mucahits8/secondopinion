@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "Segunda opinión para imágenes médicas",
+    "description": "Inicie una segunda opinión experta y segura para RM, TC, PET/TC y otros estudios de imagen médica."
+  },
+  "hero": {
+    "eyebrow": "Revisión experta, decisiones más claras",
+    "title": "Una mirada experta más sobre sus imágenes médicas.",
+    "description": "Suba de forma segura estudios de RM, TC, PET/TC y otras imágenes médicas, y reciba una segunda opinión en línea de médicos con experiencia relevante.",
+    "trustItems": [
+      { "title": "Médicos expertos", "text": "Experiencia en su área", "href": "/doctors" },
+      { "title": "Transferencia segura de imágenes", "text": "Datos de salud protegidos", "href": "/privacy" },
+      { "title": "Entrega de informe en línea", "text": "Rápida y confiable", "href": "/app/cases/SO-2026-00184/result" }
+    ]
+  },
+  "quickLinks": [
+    { "label": "Carga orientada a DICOM", "href": "/app/cases/new" },
+    { "label": "Seguimiento por caso", "href": "/app" },
+    { "label": "Informe experto estructurado", "href": "/app/cases/SO-2026-00184/result" },
+    { "label": "Intercambio controlado de datos", "href": "/privacy" }
+  ],
+  "how": {
+    "title": "Cómo Funciona",
+    "text": "Acceda a una opinión experta en cuatro pasos sencillos.",
+    "action": "Ver el proceso completo",
+    "steps": [
+      { "title": "1. Suba sus Imágenes", "text": "Suba de forma segura archivos de RM, TC, PET/TC y otros estudios.", "href": "/app/cases/new" },
+      { "title": "2. Elija su Experto", "text": "Revise el experto adecuado para su necesidad o deje que guiemos la selección.", "href": "/doctors" },
+      { "title": "3. Revisión Experta", "text": "Su médico experto revisa las imágenes y la información clínica.", "href": "/how-it-works" },
+      { "title": "4. Reciba su Segunda Opinión", "text": "Consulte el informe experto desde su cuenta segura.", "href": "/app/cases/SO-2026-00184/result" }
+    ]
+  },
+  "processPage": {
+    "metadata": "Cómo Funciona",
+    "eyebrow": "Proceso",
+    "title": "Un proceso complejo de imagen médica se convierte en cuatro pasos claros para el paciente.",
+    "text": "Second Opinion muestra solo las decisiones necesarias para completar la solicitud, en lugar de poner lenguaje técnico frente al paciente.",
+    "uploadTitle": "El sistema comprueba antes de marcar la carga como completa.",
+    "uploadText": "El prototipo convierte el flujo técnico de ingesta en estados comprensibles: carga, validación, detección del estudio y preparación para revisión experta.",
+    "journeyTitle": "Un recorrido visible desde la solicitud hasta el informe",
+    "deliveryTitle": "El informe se entrega en la cuenta segura.",
+    "deliveryText": "Cuando el informe final se comparte con el paciente, la experiencia se mantiene controlada y tranquila. La base es el acceso por cuenta segura, no adjuntos de correo."
+  },
+  "why": {
+    "eyebrow": "¿Por qué Second Opinion?",
+    "title": "Cuando una decisión de salud importa, otra mirada experta puede cambiar la conversación.",
+    "text": "La plataforma resulta sencilla para pacientes, mientras la gestión del caso, preparación de imágenes, asignación de expertos, versiones de informes y auditoría funcionan en segundo plano.",
+    "items": [
+      { "title": "Experiencia", "text": "Los casos se dirigen a expertos con experiencia relevante en imagen.", "href": "/specialties" },
+      { "title": "Acceso", "text": "Obtenga perspectiva experta más allá de los límites geográficos.", "href": "/doctors" },
+      { "title": "Claridad", "text": "Sus imágenes existentes se revisan de nuevo con una mirada experta enfocada.", "href": "/how-it-works" },
+      { "title": "Proceso", "text": "Puede ver el estado de su solicitud en cada etapa.", "href": "/app" }
+    ]
+  },
+  "experts": {
+    "title": "Nuestros Expertos",
+    "text": "Le acompaña un equipo de médicos con experiencia en especialidades relevantes.",
+    "action": "Ver todos los expertos"
+  },
+  "specialties": {
+    "title": "Especialidades",
+    "text": "Inicie una segunda opinión en la especialidad que corresponde a su estudio.",
+    "action": "Ver todas las especialidades"
+  },
+  "upload": {
+    "eyebrow": "Preparación de imágenes",
+    "title": "Una experiencia de carga DICOM sencilla para pacientes y controlada para el sistema.",
+    "text": "El paciente solo selecciona archivos. En segundo plano, el sistema revisa la estructura, los datos del estudio y la preparación del visor paso a paso.",
+    "imageAlt": "Espacio de trabajo de radiología"
+  },
+  "journey": {
+    "eyebrow": "Recorrido del caso",
+    "title": "El paciente sigue pasos claros en lugar de estados técnicos.",
+    "text": "Los procesos clínicos y técnicos complejos se convierten en un recorrido simple que muestra la siguiente acción importante."
+  },
+  "report": {
+    "eyebrow": "Informe experto",
+    "title": "No es texto libre: es una opinión experta estructurada y legible.",
+    "text": "El informe final se organiza en contexto clínico, hallazgos, valoración, respuesta a la pregunta del paciente, recomendaciones y limitaciones. Este prototipo no contiene texto diagnóstico real."
+  },
+  "security": {
+    "title": "Sus datos de salud son sensibles. Los tratamos como tales.",
+    "text": "La redacción técnica y legal se finalizará conforme madure la infraestructura real; este prototipo evita afirmaciones exageradas sobre certificaciones o garantías.",
+    "items": [
+      { "title": "Conexión segura", "text": "Se asume un canal seguro para transferir datos sensibles." },
+      { "title": "Acceso autorizado", "text": "La información del caso se vincula solo con los roles necesarios." },
+      { "title": "Registros de auditoría", "text": "Las acciones críticas se diseñan con lógica auditable." },
+      { "title": "Intercambio controlado", "text": "Los informes se consultan desde la cuenta y no se distribuyen como adjuntos de correo." }
+    ]
+  },
+  "value": {
+    "eyebrow": "Valor para el paciente",
+    "title": "No más información. Más claridad.",
+    "text": "Una segunda opinión permite obtener otra perspectiva experta basada en sus imágenes e información clínica existentes; no garantiza un resultado."
+  },
+  "faq": [
+    { "question": "¿Qué es Second Opinion?", "answer": "Es una reevaluación enfocada de sus imágenes médicas e información clínica existentes por un experto con experiencia en el área correspondiente." },
+    { "question": "¿Qué tipos de imágenes puedo subir?", "answer": "Puede crear una solicitud para RM, TC, PET/TC, SPECT/TC, radiografía, mamografía, angiografía y archivos similares." },
+    { "question": "¿Qué es un archivo DICOM?", "answer": "DICOM es el formato estándar generado por los equipos de imagen médica. El sistema convierte esos archivos en una carga más sencilla para pacientes." },
+    { "question": "¿Puedo elegir a mi experto?", "answer": "Sí. Puede revisar perfiles médicos y elegir un experto, o dejar la asignación al equipo operativo de Second Opinion." },
+    { "question": "¿Cuánto tarda la revisión?", "answer": "El contenido demo no promete un plazo fijo. En el servicio real, el tiempo dependerá de la disponibilidad del experto y del alcance del caso." },
+    { "question": "¿Cómo recibo mi informe?", "answer": "Cuando esté listo, su informe estará disponible en su cuenta segura y podrá descargarse como PDF. No se envía como adjunto de correo." }
+  ],
+  "finalCta": {
+    "eyebrow": "Iniciar la solicitud",
+    "title": "Complete paso a paso lo necesario para una segunda opinión.",
+    "text": "Los campos obligatorios se muestran con claridad; las notas clínicas y documentos adicionales pueden añadirse después cuando sea necesario.",
+    "items": [
+      { "title": "Obligatorio: imágenes", "text": "Se recopilan en el paso de carga DICOM o ZIP.", "href": "/app/cases/new" },
+      { "title": "Obligatorio: pregunta clínica", "text": "La pregunta específica que el experto debe responder.", "href": "/app/cases/new" },
+      { "title": "Opcional: documentos de apoyo", "text": "Se pueden añadir informes, epicrisis o resultados de laboratorio.", "href": "/app/cases/new" }
+    ]
+  },
+  "workspace": {
+    "sidebar": ["Mis Pacientes", "Imágenes", "Informes", "Mensajes", "Cuenta"],
+    "dicomAlt": "Interfaz demo anónima del visor DICOM",
+    "doctorAlt": "Retrato demo de médico experto",
+    "doctorName": "Prof. Dr. Mehmet Kaya",
+    "doctorSpecialty": "Especialista en Neurorradiología",
+    "reportTitle": "Informe Experto",
+    "reportSections": ["Información Clínica", "Hallazgos Radiológicos", "Valoración", "Recomendaciones"],
+    "demoBadge": "Imagen demo anónima"
+  }
+}

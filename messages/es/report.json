@@ -1,0 +1,18 @@
+{
+  "preview": {
+    "eyebrow": "Second Opinion",
+    "title": "Informe Experto",
+    "doctor": "Prof. Dr. Mehmet Kaya",
+    "sections": ["Información Clínica", "Estudio", "Hallazgos", "Valoración", "Respuesta a la Pregunta del Paciente", "Recomendaciones"]
+  },
+  "result": {
+    "title": "Su informe de Second Opinion está listo.",
+    "text": "Esta pantalla muestra la experiencia de entrega final. El prototipo no contiene texto diagnóstico real ni datos reales de pacientes.",
+    "summary": "Resumen del resultado",
+    "viewOpinion": "Ver Segunda Opinión",
+    "pdfInfo": "Información PDF",
+    "answerTitle": "Respuesta a la pregunta del paciente",
+    "answerText": "Esta área resume la respuesta clara del experto a la pregunta específica del paciente. En el prototipo no se escribe diagnóstico ni recomendación terapéutica.",
+    "pdfText": "La descarga PDF se activará cuando se conecte el servicio real de generación de informes. En este prototipo, el botón dirige al área del informe y muestra la experiencia de entrega."
+  }
+}
