@@ -214,7 +214,6 @@ function LanguageSwitcher({ compact = false, mobile = false }: { compact?: boole
               <NextLink
                 key={targetLocale}
                 href={localizePath(pathname, targetLocale)}
-                locale={false}
                 role="option"
                 aria-selected={active}
                 aria-label={t("switchTo", { language })}
